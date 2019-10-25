@@ -27,11 +27,23 @@
 
 <script>
     
+    // default start position
+    var params = {
+        lat: 59.08,
+        lon: 5.34,
+        zoom: 11
+    };
+    
+    // read lat,lon,zoom from url parameters like test.html?lat=59&lon=5&zoom=8
+    window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
+      params[key] = value;
+    });
+    
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapStyle.json',
-        center: [5.34, 59.08],
-        zoom: 11
+        center: [params.lon, params.lat],
+        zoom: params.zoom
     });
     
     map.on('mousemove', function (e) {

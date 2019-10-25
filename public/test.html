@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+    #features {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    overflow: auto;
+    background: rgba(255, 255, 255, 0.8);
+    }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+<pre id='features'></pre>
+
+<script>
+    
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapStyle.json',
+        center: [5.34, 59.08],
+        zoom: 11
+    });
+    
+    map.on('mousemove', function (e) {
+        var features = map.queryRenderedFeatures(e.point);
+        var outputFeatures = [];
+        for (var i = 0; i < features.length; i++) {
+            var feature = features[i];
+            feature.geometry = "removed..";
+            outputFeatures.push(feature);
+        }
+        document.getElementById('features').innerHTML = JSON.stringify(features, null, 2);
+    });
+
+ </script>
+
+</body>
+</html>

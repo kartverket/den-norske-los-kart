@@ -1247,6 +1247,7 @@
     {
       "id": "Luftspenn",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "CBLOHD",
       "filter": [
@@ -1336,6 +1337,7 @@
     {
       "id": "recommended_track",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "RECTRC",
       "paint": {
@@ -1382,6 +1384,7 @@
     {
       "id": "Restricted",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "RESARE",
       "paint": {
@@ -1395,6 +1398,7 @@
     {
       "id": "Ferry",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "FERYRT",
       "paint": {

@@ -1197,7 +1197,7 @@
       "icon-padding":20,
       "layout": {
         "visibility": "visible",
-        "text-padding":15,
+        "text-padding":5,
         "text-font": [
           "Open Sans Regular"
         ],
@@ -1225,7 +1225,7 @@
       "icon-padding":20,
       "layout": {
         "visibility": "visible",
-        "text-padding":15,
+        "text-padding":5,
         "text-font": [
           "Open Sans Regular"
         ],
@@ -1253,7 +1253,7 @@
       "icon-padding":20,
       "layout": {
         "visibility": "visible",
-        "text-padding":15,
+        "text-padding":10,
         "text-font": [
           "Open Sans Regular"
         ],
@@ -1281,7 +1281,7 @@
       "icon-padding":20,
       "layout": {
         "visibility": "visible",
-        "text-padding":10,
+        "text-padding":15,
         "text-font": [
           "Open Sans Regular"
         ],
@@ -1309,7 +1309,7 @@
       "icon-padding":20,
       "layout": {
         "visibility": "visible",
-        "text-padding":5,
+        "text-padding":20,
         "text-font": [
           "Open Sans Regular"
         ],
@@ -1336,7 +1336,7 @@
       "icon-padding":20,
       "layout": {
         "visibility": "visible",
-        "text-padding":5,
+        "text-padding":20,
         "text-font": [
           "Open Sans Regular"
         ],

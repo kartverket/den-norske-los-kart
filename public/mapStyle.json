@@ -942,7 +942,7 @@
     },{
       "id": "Konstruertkystkontur",
       "type": "line",
-      "minzoom": 11,
+      "minzoom": 12,
       "source": "dnl",
       "source-layer": "Konstruertkystkontur",
       "paint": {
@@ -952,7 +952,7 @@
     },{
       "id": "konst_kyst_l",
       "type": "line",
-      "minzoom": 11,
+      "minzoom": 12,
       "source": "dnl",
       "source-layer": "konst_kyst_l",
       "paint": {
@@ -962,7 +962,7 @@
     },{
       "id": "Kystkontur",
       "type": "line",
-      "minzoom": 11,
+      "minzoom": 12,
       "source": "dnl",
       "source-layer": "Kystkontur",
       "paint": {
@@ -1276,6 +1276,7 @@
     },{
       "id": "BRIDGE_label",
       "type": "symbol",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "BRIDGE",
       "layout": {
@@ -1294,6 +1295,7 @@
     {
       "id": "Luftspenn",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "CBLOHD",
       "filter": [
@@ -1312,6 +1314,7 @@
     },{
       "id": "Luftspenn_label",
       "type": "symbol",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "CBLOHD",
       "layout": {
@@ -1330,6 +1333,7 @@
     {
       "id": "Cable_submarine",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "CBLSUB",
       "filter": [
@@ -1348,6 +1352,7 @@
     {
       "id": "Cable_6",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "CBLSUB",
       "filter": [
@@ -1366,6 +1371,7 @@
     {
       "id": "Grenser_fiskeri",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "FSHZNE",
       "paint": {
@@ -1379,6 +1385,7 @@
     {
       "id": "recommended_track",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "RECTRC",
       "paint": {
@@ -1392,6 +1399,7 @@
     {
       "id": "Grenser_territorial",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "STSLNE",
       "filter": [
@@ -1410,6 +1418,7 @@
     {
       "id": "Grenser_Caution",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "CTNARE",
       "paint": {
@@ -1423,6 +1432,7 @@
     {
       "id": "Restricted",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "RESARE",
       "paint": {
@@ -1436,6 +1446,7 @@
     {
       "id": "Ferry",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "FERYRT",
       "paint": {
@@ -1449,6 +1460,7 @@
     {
       "id": "Rørledning",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "PIPSOL",
       "layout": {
@@ -1471,6 +1483,7 @@
     {
       "id": "Rørledning_2",
       "type": "line",
+      "minzoom": 10,
       "source": "s57",
       "source-layer": "PIPSOL",
       "filter": [
@@ -1615,7 +1628,7 @@
     },{
       "id": "Luftledning",
       "type": "line",
-      "minzoom": 11,
+      "minzoom": 12,
       "source": "dnl",
       "source-layer": "linjehindre",
       "paint": {

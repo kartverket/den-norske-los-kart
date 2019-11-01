@@ -19,7 +19,7 @@
     ]
   }
   },
-  "sprite": "https://dnl.kartverket.no",
+  "sprite": "https://dnl.kartverket.no/s52",
   "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   "layers": [
     {

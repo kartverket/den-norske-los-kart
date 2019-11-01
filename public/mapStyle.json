@@ -12,10 +12,6 @@
       "maxzoom":14,
       "tiles": ["https://cache.kartverket.no/dnl/{z}/{x}/{y}.mvt"]
   },
-  "nrl": {
-      "type": "vector",
-      "tiles": ["https://wms.geonorge.no/skwms1/wms.nrl?mode=tile&tilemode=gmap&tile={x}+{y}+{z}&layers=all&map.imagetype=mvt"]
-    },
     "fjellskygge2": {
       "type": "raster",
       "tiles": [

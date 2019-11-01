@@ -910,7 +910,35 @@
         "line-width": 1,
         "line-color": "#57656b"
       }
-    },{
+    },
+    {
+      "id": "TSEZNE",
+      "type": "fill",
+      "minzoom": 11,
+      "source": "s57",
+      "source-layer": "TSEZNE",
+      "paint": {
+        "fill-color": "#ad5cd1",
+        "fill-opacity": 0.3
+      }
+    },
+    {
+      "id": "TSSBND",
+      "type": "line",
+      "minzoom": 11,
+      "source": "s57",
+      "source-layer": "TSSBND",
+      "paint": {
+        "line-color": "#ad5cd1",
+        "line-width": 4,
+        "line-opacity": 0.3,
+        "line-dasharray": [
+          4,
+          1
+        ]
+      }
+    },
+    {
       "id": "Torrdokk_Grense",
       "type": "line",
       "minzoom": 11,
@@ -1644,7 +1672,8 @@
         ],
         "line-width": 1
       }
-    },{
+    },
+    {
       "id": "LIGHTS_LEG",
       "type": "line",
       "minzoom": 11,
@@ -1743,7 +1772,7 @@
       }
     },
     {
-      "id": "S52_SYMBOL_135",
+      "id": "S52_SYMBOL_ROTATE",
       "type": "symbol",
       "minzoom": 11,
       "source": "s57",
@@ -1751,9 +1780,8 @@
       "filter": [
         "all",
         [
-          "==",
-          "ROTATE",
-          135
+          "has",
+          "ROTATE"
         ],
         [
           "!in",
@@ -1768,7 +1796,11 @@
       "layout": {
         "icon-image": "{SYMBOL}",
         "icon-allow-overlap": true,
-        "icon-rotate": 135
+        "icon-rotate": {
+            "property": "ROTATE",
+            "type": "identity"
+        },
+        "icon-rotation-alignment": "map"
       }
     },{
       "id": "Luftledning",

@@ -257,7 +257,7 @@
       ["linear"],
       ["to-number",["get", "dybdeverdi_min"]],
       0, "#8cc7ed",
-      10, "#cce9f2",
+      10, "#e7f6fd",
       20, "#e7f6fd",
       2000, "#e7f6fd"
       ]

@@ -1246,8 +1246,28 @@
         "line-width": 1
     }
     },
-    
-   
+	  
+    {
+      "id": "Dybdekontur-label",
+      "type": "symbol",
+      "source": "dnl",
+      "source-layer": "Dybdekontur",
+      "minzoom":14,
+      "layout": {
+        "visibility": "visible",
+        "symbol-placement":"line",
+        "text-font": [
+          "Open Sans Regular"
+        ],
+        "text-size": 8,
+        "text-field": ["get", "dybdeverdi_kontur"]
+      },
+      "paint": {
+        "text-color": "#000000",
+        "text-halo-width": 1.5,
+        "text-halo-color": "rgba(255,255,255,0.7)"
+      }
+    },
     {
       "id": "Dybdepunkt-label-1-6",
       "type": "symbol",
@@ -1267,6 +1287,7 @@
           "Open Sans Regular"
         ],
         "text-size": 9,
+        "symbol-sort-key":["to-number", ["get", "dybdeverdi"]],
         "text-field":["get", "dybdeverdi"]
       },
       "paint": {
@@ -1295,6 +1316,7 @@
           "Open Sans Regular"
         ],
         "text-size": 9,
+        "symbol-sort-key":["to-number", ["get", "dybdeverdi"]],
         "text-field":["get", "dybdeverdi"]
       },
       "paint": {
@@ -1323,6 +1345,7 @@
           "Open Sans Regular"
         ],
         "text-size": 9,
+        "symbol-sort-key":["to-number", ["get", "dybdeverdi"]],
         "text-field":["get", "dybdeverdi"]
       },
       "paint": {
@@ -1351,6 +1374,7 @@
           "Open Sans Regular"
         ],
         "text-size": 9,
+        "symbol-sort-key":["to-number", ["get", "dybdeverdi"]],
         "text-field":["get", "dybdeverdi"]
       },
       "paint": {
@@ -1379,6 +1403,7 @@
           "Open Sans Regular"
         ],
         "text-size": 9,
+        "symbol-sort-key":["to-number", ["get", "dybdeverdi"]],
         "text-field":["get", "dybdeverdi"]
       },
       "paint": {
@@ -1407,33 +1432,13 @@
           "Open Sans Regular"
         ],
         "text-size": 9,
+        "symbol-sort-key":["to-number", ["get", "dybdeverdi"]],
         "text-field":["get", "dybdeverdi"]
       },
       "paint": {
         "text-color": "rgba(1,1,1,1)",
         "text-halo-width": 1.5,
         "text-halo-color": "rgba(254,254,254,1)"
-      }
-    },
-    {
-      "id": "Dybdekontur-label",
-      "type": "symbol",
-      "source": "dnl",
-      "source-layer": "Dybdekontur",
-      "minzoom":14,
-      "layout": {
-        "visibility": "visible",
-        "symbol-placement":"line",
-        "text-font": [
-          "Open Sans Regular"
-        ],
-        "text-size": 8,
-        "text-field": ["get", "dybdeverdi_kontur"]
-      },
-      "paint": {
-        "text-color": "#000000",
-        "text-halo-width": 1.5,
-        "text-halo-color": "rgba(255,255,255,0.7)"
       }
     },
     {

@@ -1906,10 +1906,8 @@
           "Open Sans Bold"
         ],
         "text-size": 10,
-        "text-field": ["get", "dybdeverdi"],
-        "text-justify": "auto",
         "symbol-sort-key": ["to-number",["get", "dybdeverdi"]],
-        "text-allow-overlap": false
+        "text-field": ["get", "dybdeverdi"]
       },
       "paint": {
         "text-color": "rgba(5,5,5,1)",

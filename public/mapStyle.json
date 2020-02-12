@@ -1504,6 +1504,20 @@
       }
     },
     {
+      "id": "MARCUL",
+      "type": "line",
+      "minzoom": 10,
+      "source": "s57",
+      "source-layer": "MARCUL",
+      "paint": {
+        "line-color": "#aaa",
+        "line-dasharray": [
+          2,1
+        ],
+        "line-width": 2
+      }
+    },
+    {
       "id": "Cable_submarine",
       "type": "line",
       "minzoom": 10,
@@ -1747,7 +1761,19 @@
         "line-width": 3,
         "line-opacity": 1
       }
-    },{
+    },
+    {
+        "id": "S52_AREA_FILL_SYMBOL",
+        "type": "symbol",
+        "source": "s57",
+        "source-layer": "S52_AREA_FILL_SYMBOL",
+        "minzoom": 11,
+        "layout": {
+            "icon-image": "{SYMBOL}",
+            "icon-allow-overlap": true
+        }
+    },
+    {
       "id": "S52_SYMBOL",
       "type": "symbol",
       "minzoom": 11,

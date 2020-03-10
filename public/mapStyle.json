@@ -1504,6 +1504,17 @@
       }
     },
     {
+      "id": "MARCUL_fill",
+      "type": "fill",
+      "minzoom": 10,
+      "source": "s57",
+      "source-layer": "MARCUL",
+      "paint": {
+        "fill-color": "#aaa",
+        "fill-opacity": 0.1
+      }
+    },
+    {
       "id": "MARCUL",
       "type": "line",
       "minzoom": 10,

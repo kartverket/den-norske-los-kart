@@ -1246,7 +1246,7 @@
         "line-width": 1
     }
     },
-    
+
     {
       "id": "Dybdekontur-label",
       "type": "symbol",
@@ -1259,8 +1259,10 @@
         "text-font": [
           "Open Sans Regular"
         ],
-        "text-size": 8,
-        "text-field": ["get", "dybdeverdi_kontur"]
+
+        "text-size": 9,
+        "symbol-sort-key":["to-number", ["get", "dybdeverdi"]],
+        "text-field":["get", "dybdeverdi"]
       },
       "paint": {
         "text-color": "#000000",

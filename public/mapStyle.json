@@ -15,7 +15,7 @@
 	"nye_data": {
       "type": "vector",
       "maxzoom":14,
-      "tiles": ["http://rin-te0031/cgi-bin/dnl?mode=tile&tilemode=gmap&tile={x}+{y}+{z}&layers=all&map.imagetype=mvt"]
+      "tiles": ["https://openwms.statkart.no/skwms1/wmstest.dnl?mode=tile&tilemode=gmap&tile={x}+{y}+{z}&layers=all&map.imagetype=mvt"]
   },
     "fjellskygge2": {
       "type": "raster",

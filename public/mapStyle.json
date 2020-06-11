@@ -12,6 +12,11 @@
       "maxzoom":14,
       "tiles": ["https://cache.kartverket.no/dnl/{z}/{x}/{y}.mvt"]
   },
+	"nye_data": {
+      "type": "vector",
+      "maxzoom":14,
+      "tiles": ["http://rin-te0031/cgi-bin/dnl?mode=tile&tilemode=gmap&tile={x}+{y}+{z}&layers=all&map.imagetype=mvt"]
+  },
     "fjellskygge2": {
       "type": "raster",
       "tiles": [
@@ -866,7 +871,7 @@
       "id": "Flytebrygge",
       "type": "fill",
       "minzoom": 11,
-      "source": "dnl",
+      "source": "nye_data",
       "source-layer": "Flytebrygge",
       "paint": {
         "fill-color": "#57656b"
@@ -875,7 +880,7 @@
       "id": "Flytebrygge_Grense",
       "type": "line",
       "minzoom": 11,
-      "source": "dnl",
+      "source": "nye_data",
       "source-layer": "Flytebrygge_Grense",
       "paint": {
         "line-width": 1,
@@ -885,7 +890,7 @@
       "id": "flytebrygge_l",
       "type": "line",
       "minzoom": 11,
-      "source": "dnl",
+      "source": "nye_data",
       "source-layer": "flytebrygge_l",
       "paint": {
         "line-width": 1,
@@ -1560,8 +1565,8 @@
       "id": "LIGHTS_LEG",
       "type": "line",
       "minzoom": 11,
-      "source": "s57",
-      "source-layer": "LIGHTS_LEG",
+      "source": "nye_data",
+      "source-layer": "sektorlinje",
       "paint": {
         "line-color": "#000000",
         "line-width": 0.2,

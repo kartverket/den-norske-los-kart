@@ -154,6 +154,42 @@
             }
     },
 	  
+	  	   {
+      "id": "svalbard1000_isbre",
+      "type": "fill",
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s1000_isbreer",
+      "minzoom": 4,
+      "maxzoom": 11,
+      "paint": {
+                "fill-color": "#FFFEFD"
+            }
+    },
+	  
+	  	  	   {
+      "id": "svalbard250_isbre",
+      "type": "fill",
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s1000_isbreer",
+      "minzoom": 10,
+      "maxzoom": 13,
+      "paint": {
+                "fill-color": "#FFFEFD"
+            }
+    },
+	  
+	  	  	   {
+      "id": "svalbard100_isbre",
+      "type": "fill",
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s1000_isbreer",
+      "minzoom": 12,
+      "maxzoom": 15,
+      "paint": {
+                "fill-color": "#FFFEFD"
+            }
+    },
+	  
 	  {
       "id": "fjellskygge2000",
       "type": "raster",

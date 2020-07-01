@@ -110,6 +110,19 @@
                 "fill-color": "#e7f6fd"
             }
     },
+	  
+	   {
+      "id": "svalbard1000_vann",
+      "type": "fill",
+      "source": "dnl",
+      "source-layer": "svalbard_s1000_vann",
+      "minzoom": 4,
+      "maxzoom": 11,
+      "paint": {
+                "fill-color": "#e7f6fd"
+            }
+    },
+	  
     {
       "id": "Vannflate500",
       "type": "fill",
@@ -127,7 +140,21 @@
       "paint": {
                 "fill-color": "#e7f6fd"
             }
-    },{
+    },
+	  
+	  	   {
+      "id": "svalbard250_vann",
+      "type": "fill",
+      "source": "dnl",
+      "source-layer": "svalbard_s250_vann",
+      "minzoom": 10,
+      "maxzoom": 13,
+      "paint": {
+                "fill-color": "#e7f6fd"
+            }
+    },
+	  
+	  {
       "id": "fjellskygge2000",
       "type": "raster",
       "maxzoom": 11,
@@ -857,7 +884,18 @@
       "paint": {
         "fill-color": "#e7f6fd"
       }
-    },{
+    },
+	  	  	   {
+      "id": "svalbard100_vann",
+      "type": "fill",
+      "source": "dnl",
+      "source-layer": "svalbard_s100_vann",
+      "minzoom": 10,
+      "paint": {
+                "fill-color": "#e7f6fd"
+            }
+    },
+	  {
       "id": "N50Elver",
       "type": "line",
       "minzoom": 11,

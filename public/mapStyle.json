@@ -198,10 +198,7 @@
       "minzoom": 4,
       "maxzoom": 11,
       "paint": {
-	      "fill-pattern": {
-	"circle-radius": 3,
-        "circle-color": "rgba(1,1,1,1)"
-	      }
+	      "fill-pattern": "SAFCON33"
             }
     },
 	  
@@ -209,14 +206,11 @@
       "id": "svalbard250_elvesletter_icon",
       "type": "fill",
       "source": "dnl_sv",
-      "source-layer": "svalbard_s250_elvesletter",
+      "source-layer": "svalbard_s250_elvesletter"
       "minzoom": 4,
       "maxzoom": 11,
       "paint": {
-	      "fill-pattern": {
-	"circle-radius": 3,
-        "circle-color": "rgba(1,1,1,1)"
-	      }
+	      "fill-pattern": "SAFCON33",
             }
     },
 	  
@@ -224,14 +218,11 @@
       "id": "svalbard100_elvesletter_icon",
       "type": "fill",
       "source": "dnl_sv",
-      "source-layer": "svalbard_s100_elvesletter",
+      "source-layer": "svalbard_s100_elvesletter"
       "minzoom": 4,
       "maxzoom": 11,
       "paint": {
-	      "fill-pattern": {
-	"circle-radius": 3,
-        "circle-color": "rgba(1,1,1,1)"
-	      }
+	      "fill-pattern": "SAFCON33",
             }
     },
 	  

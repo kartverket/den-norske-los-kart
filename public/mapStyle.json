@@ -114,7 +114,7 @@
 	   {
       "id": "svalbard1000_vann",
       "type": "fill",
-      "source": "dnl",
+      "source": "dnl_sv",
       "source-layer": "svalbard_s1000_vann",
       "minzoom": 4,
       "maxzoom": 11,
@@ -145,7 +145,7 @@
 	  	   {
       "id": "svalbard250_vann",
       "type": "fill",
-      "source": "dnl",
+      "source": "dnl_sv",
       "source-layer": "svalbard_s250_vann",
       "minzoom": 10,
       "maxzoom": 13,

@@ -170,7 +170,7 @@
       "id": "svalbard250_isbre",
       "type": "fill",
       "source": "dnl_sv",
-      "source-layer": "svalbard_s1000_isbreer",
+      "source-layer": "svalbard_s250_isbreer",
       "minzoom": 10,
       "maxzoom": 13,
       "paint": {
@@ -182,7 +182,7 @@
       "id": "svalbard100_isbre",
       "type": "fill",
       "source": "dnl_sv",
-      "source-layer": "svalbard_s1000_isbreer",
+      "source-layer": "svalbard_s100_isbreer",
       "minzoom": 12,
       "maxzoom": 15,
       "paint": {

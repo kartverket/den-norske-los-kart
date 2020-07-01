@@ -155,18 +155,6 @@
     },
 	  
 	  	   {
-      "id": "svalbard1000_elvesletter",
-      "type": "fill",
-      "source": "dnl_sv",
-      "source-layer": "svalbard_s1000_elvesletter",
-      "minzoom": 4,
-      "maxzoom": 11,
-      "paint": {
-                "fill-color": "#B1E4F1"
-            }
-    },
-	  
-	  	   {
       "id": "svalbard250_elvesletter",
       "type": "fill",
       "source": "dnl_sv",
@@ -189,19 +177,7 @@
                 "fill-color": "#B1E4F1"
             }
     },
-	  
-	  	  	   {
-      "id": "svalbard1000_elvesletter_icon",
-      "type": "fill",
-      "source": "dnl_sv",
-      "source-layer": "svalbard_s1000_elvesletter",
-      "minzoom": 4,
-      "maxzoom": 11,
-      "paint": {
-	      "fill-color": "#0C0D0D",
-	      "fill-pattern": "SAFCON33"
-            }
-    },
+
 	  
 	  	   {
       "id": "svalbard250_elvesletter_icon",

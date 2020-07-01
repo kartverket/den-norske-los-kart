@@ -7,10 +7,15 @@
     "maxzoom":14,
       "tiles": ["https://s3-eu-west-1.amazonaws.com/maplytic-blob-public/85d855bc-7151-4d92-9afe-feb1b5c9059f/tile/_dnlvt/{z}/{x}/{y}.mvt"]
     },
-    "dnl": {
+    "dnl_cache": {
       "type": "vector",
       "maxzoom":14,
       "tiles": ["https://cache.kartverket.no/dnl/{z}/{x}/{y}.mvt"]
+  },
+	  "dnl": {
+      "type": "vector",
+      "maxzoom":14,
+      "tiles": ["https://openwms.statkart.no/skwms1/wmstest.dnl?mode=tile&tilemode=gmap&tile={x}+{y}+{z}&layers=all&map.imagetype=mvt"]
   },
     "fjellskygge2": {
       "type": "raster",
@@ -73,6 +78,17 @@
       "maxzoom": 11,
       "source": "dnl",
       "source-layer": "N500Arealdekkeflate",
+      "paint": {
+      "fill-color": "#ffefc6"
+      }
+    },
+	  
+	  {
+      "id": "svalbard_land",
+      "type": "fill",
+      "maxzoom": 15,
+      "source": "dnl",
+      "source-layer": "svalbard_land",
       "paint": {
       "fill-color": "#ffefc6"
       }

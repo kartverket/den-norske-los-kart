@@ -389,6 +389,17 @@
         "fill-color": "#6bbfab"
       }
     },
+	  
+	          {
+      "id": "svalbard_torrfall",
+      "type": "fill",
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s250_torrfall",
+      "minzoom": 10,
+      "paint": {
+        "fill-color": "#6bbfab"
+      }
+    },
 
     {
       "id": "N500Jernbane",

@@ -198,6 +198,7 @@
       "minzoom": 4,
       "maxzoom": 11,
       "paint": {
+	      "fill-color": "#0C0D0D",
 	      "fill-pattern": "TOWERS03"
             }
     },
@@ -210,6 +211,7 @@
       "minzoom": 10,
       "maxzoom": 13,
       "paint": {
+	      "fill-color": "#0C0D0D",
 	      "fill-pattern": "TOWERS03"
             }
     },
@@ -222,6 +224,7 @@
       "minzoom": 12,
       "maxzoom": 15,
       "paint": {
+	      "fill-color": "#0C0D0D",
 	      "fill-pattern": "TOWERS03"
             }
     },

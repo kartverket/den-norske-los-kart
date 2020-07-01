@@ -196,6 +196,33 @@
       "line-blur": 1.5
       }
     },
+	  
+	  {
+      "interactive": true,
+      "id": "svalbard1000_elver",
+      "type": "line",
+      "minzoom": 6,
+      "maxzoom": 9,
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s1000_elv",
+      "paint": {
+        "line-color": "#e7f6fd",
+        "line-width": {
+      "base": 1,
+      "stops": [
+        [
+          8,
+          2
+        ],
+        [
+          12,
+          4
+        ]
+      ]
+      },
+      "line-blur": 1.5
+      }
+    },
     {
       "interactive": true,
       "id": "N500Elver",
@@ -204,6 +231,33 @@
       "maxzoom": 11,
       "source": "dnl",
       "source-layer": "N500Elver",
+      "paint": {
+        "line-color": "#e7f6fd",
+        "line-width": {
+      "base": 1,
+      "stops": [
+        [
+          8,
+          1.5
+        ],
+        [
+          12,
+          5
+        ]
+      ]
+      },
+      "line-blur": 1.5
+      }
+    },
+	  
+	  {
+      "interactive": true,
+      "id": "svalbard250_elver",
+      "type": "line",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s250_elv",
       "paint": {
         "line-color": "#e7f6fd",
         "line-width": {
@@ -813,7 +867,21 @@
         "line-width": 1,
         "line-color": "#e7f6fd"
       }
-    },{
+    },
+	  
+	  {
+      "id": "svalbard100_elver",
+      "type": "line",
+      "minzoom": 11,
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s1000_elv",
+      "paint": {
+        "line-width": 1,
+        "line-color": "#e7f6fd"
+      }
+    },
+	  
+	  {
       "id": "N50Flomlop",
       "type": "line",
       "minzoom": 11,

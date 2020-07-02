@@ -358,7 +358,7 @@
       "source": "dnl_sv",
       "source-layer": "svalbard_s250_elvesletter",
       "minzoom": 10,
-      "maxzoom": 13,
+      "maxzoom": 11,
       "paint": {
                 "fill-color": "#b9e3f9"
             }
@@ -369,37 +369,9 @@
       "type": "fill",
       "source": "dnl_sv",
       "source-layer": "svalbard_s100_elvesletter",
-      "minzoom": 12,
-      "maxzoom": 15,
+      "minzoom": 11,
       "paint": {
                 "fill-color": "#b9e3f9"
-            }
-    },
-
-	  
-	  	   {
-      "id": "svalbard250_elvesletter_icon",
-      "type": "fill",
-      "source": "dnl_sv",
-      "source-layer": "svalbard_s250_elvesletter",
-      "minzoom": 10,
-      "maxzoom": 12,
-      "paint": {
-	      "fill-color": "#b9e3f9",
-	      "fill-pattern": "EBLVRM11"
-            }
-    },
-	  
-	  	   {
-      "id": "svalbard100_elvesletter_icon",
-      "type": "fill",
-      "source": "dnl_sv",
-      "source-layer": "svalbard_s100_elvesletter",
-      "minzoom": 12,
-      "maxzoom": 15,
-      "paint": {
-	      "fill-color": "#b9e3f9",
-	      "fill-pattern": "EBLVRM11"
             }
     },
 

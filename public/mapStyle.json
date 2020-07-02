@@ -1050,6 +1050,89 @@
         ]
             }
         },
+	  
+	  {
+            "id": "svalbard1000_stedsnavn",
+            "type": "symbol",
+            "source": "dnl_sv",
+            "source-layer": "svalbard_s1000_stedsnavn",
+      "maxzoom": 8,
+            "layout": {
+
+      "symbol-sort-key": ["to-number",["get", "ttema"]],
+
+      "text-font": [
+          "Open Sans Regular"
+        ],
+                "text-field": [
+                    "step",
+                    ["zoom"],
+                    [
+                        "match",
+                        ["to-number",["get", "navntype"]],
+                        [3],
+                        ["get", "stedsnavn"],
+                        ["get", "stedsnavn"]
+                    ],
+                    4,
+                    [
+                         "match",
+                        ["to-number",["get", "navntype"]],
+                        [101],
+                        ["to-string", ["get", "stedsnavn"]],
+                        ""
+                    ],
+          7,
+                    [
+                        "match",
+                        ["to-number",["get", "navntype"]],
+                        [94,84,86,80],
+                        ["to-string", ["get", "stedsnavn"]],
+                        ""
+                    ]
+                ],
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["to-number",["get", "skriftkode"]],
+          1, 9,
+          3, 18,
+          13, 12,
+          16, 11, 
+          31, 9,
+          50, 10,
+          80, 10,
+          82, 10,
+          84, 10, 
+          86, 10,
+          87, 12,
+          89, 9,
+	  94, 16,
+	  101, 16
+                ]
+            },
+            "paint": {
+                "text-color": [
+        "interpolate",
+                    ["linear"],
+                    ["to-number",["get", "skriftkode"]],
+          1, "rgb(71, 35, 21)",
+          3, "rgb(50,50,50)",
+          13, "rgb(50,50,50)",
+          16, "rgb(71, 35, 21)", 
+          31, "rgb(18, 55, 120)",
+          50, "rgb(71, 35, 21)",
+          80, "rgb(18, 55, 120)",
+          82, "rgb(50,50,50)",
+          84, "rgb(50,50,50)", 
+          86, "rgb(50,50,50)",
+          87, "rgb(50,50,50)",
+          89, "rgb(50,50,50)",
+	  94, "rgb(18, 55, 120)",
+          101, "rgb(50,50,50)"
+        ]
+            }
+        },
 
     {
       "id": "N50Bygningsflate",

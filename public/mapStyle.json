@@ -1066,7 +1066,7 @@
                     ["zoom"],
                     [
                         "match",
-                        ["to-number",["get", "navntype"]],
+                        ["get", "navntype"],
                         [3],
                         ["get", "stedsnavn"],
                         ["get", "stedsnavn"]
@@ -1074,15 +1074,15 @@
                     4,
                     [
                          "match",
-                        ["to-number",["get", "navntype"]],
-                        [3, 101],
+                        ["get", "navntype"],
+                        [3,101],
                         ["to-string", ["get", "stedsnavn"]],
-                        "boo"
+                        "woops"
                     ],
           7,
                     [
                         "match",
-                        ["to-number",["get", "navntype"]],
+                        ["get", "navntype"],
                         [94,84,86,80],
                         ["to-string", ["get", "stedsnavn"]],
                         "boo"
@@ -1091,7 +1091,7 @@
                 "text-size": [
                     "interpolate",
                     ["linear"],
-                    ["to-number",["get", "navntype"]],
+                    ["get", "navntype"],
           1, 9,
           3, 18,
           13, 12,
@@ -1112,7 +1112,7 @@
                 "text-color": [
         "interpolate",
                     ["linear"],
-                    ["to-number",["get", "navntype"]],
+                    ["get", "navntype"],
           1, "rgb(71, 35, 21)",
           3, "rgb(50,50,50)",
           13, "rgb(50,50,50)",

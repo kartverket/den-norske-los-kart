@@ -1056,10 +1056,7 @@
             "type": "symbol",
             "source": "dnl_sv",
             "source-layer": "svalbard_s1000_stedsnavn",
-      "maxzoom": 8,
             "layout": {
-
-      "symbol-sort-key": ["to-number",["get", "ttema"]],
 
       "text-font": [
           "Open Sans Regular"
@@ -1078,9 +1075,9 @@
                     [
                          "match",
                         ["to-number",["get", "navntype"]],
-                        [101],
+                        [3, 101],
                         ["to-string", ["get", "stedsnavn"]],
-                        ""
+                        "boo"
                     ],
           7,
                     [
@@ -1088,13 +1085,13 @@
                         ["to-number",["get", "navntype"]],
                         [94,84,86,80],
                         ["to-string", ["get", "stedsnavn"]],
-                        ""
+                        "boo"
                     ]
                 ],
                 "text-size": [
                     "interpolate",
                     ["linear"],
-                    ["to-number",["get", "skriftkode"]],
+                    ["to-number",["get", "navntype"]],
           1, 9,
           3, 18,
           13, 12,
@@ -1115,7 +1112,7 @@
                 "text-color": [
         "interpolate",
                     ["linear"],
-                    ["to-number",["get", "skriftkode"]],
+                    ["to-number",["get", "navntype"]],
           1, "rgb(71, 35, 21)",
           3, "rgb(50,50,50)",
           13, "rgb(50,50,50)",

@@ -385,7 +385,7 @@
       "filter": 
    	 [
           "in",
-          "objtype",
+          "objtypenavn",
           "veg"
         ],
       "paint": {

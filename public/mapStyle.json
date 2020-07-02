@@ -190,6 +190,18 @@
             }
     },
 	  
+	  	  	  {
+      "id": "svalbard100_flyplass",
+      "type": "fill",
+      "minzoom": 11,
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s100_teknisit",
+      "filter": ["==", "objekttypenavn", "Rullebane"],
+      "paint": {
+        "fill-color": "#A8A8A8"
+      }
+    },
+	  
 	  {
       "id": "fjellskygge2000",
       "type": "raster",

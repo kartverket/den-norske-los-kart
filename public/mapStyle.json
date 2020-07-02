@@ -1061,7 +1061,33 @@
       "text-font": [
           "Open Sans Regular"
         ],
-                "text-field": ["get", "stedsnavn"],
+                "text-field": [
+                    "step",
+                    ["zoom"],
+                    [
+                        "match",
+                        ["to-number",["get", "navnetype"]],
+                        [3],
+                        ["get", "stedsnavn"],
+                        ["get", "stedsnavn"]
+                    ],
+                    4,
+                    [
+                         "match",
+                        ["to-number",["get", "navnetype"]],
+                        [3, 101],
+                        ["to-string", ["get", "stedsnavn"]],
+                        "woops"
+                    ],
+          7,
+                    [
+                        "match",
+                        ["to-number",["get", "navnetype"]],
+                        [3, 101],
+                        ["to-string", ["get", "stedsnavn"]],
+                        "boo"
+                    ]
+                ],
                 "text-size": [
                     "interpolate",
                     ["linear"],

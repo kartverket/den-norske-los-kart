@@ -211,7 +211,7 @@
       "source": "dnl_sv",
       "source-layer": "svalbard_s1000_isbreer",
       "minzoom": 4,
-      "maxzoom": 11,
+      "maxzoom": 9,
       "paint": {
                 "fill-color": "#FFFEFD"
             }
@@ -222,7 +222,7 @@
       "type": "fill",
       "source": "dnl_sv",
       "source-layer": "svalbard_s250_isbreer",
-      "minzoom": 10,
+      "minzoom": 8,
       "maxzoom": 13,
       "paint": {
                 "fill-color": "#FFFEFD"

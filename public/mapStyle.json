@@ -383,10 +383,10 @@
       "source": "dnl_sv",
       "source-layer": "svalbard_s250_elvesletter",
       "minzoom": 10,
-      "maxzoom": 13,
+      "maxzoom": 12,
       "paint": {
 	      "fill-color": "#0C0D0D",
-	      "fill-pattern": "SAFCON33"
+	      "fill-pattern": "BOYSPP25"
             }
     },
 	  
@@ -399,7 +399,7 @@
       "maxzoom": 15,
       "paint": {
 	      "fill-color": "#0C0D0D",
-	      "fill-pattern": "SAFCON33"
+	      "fill-pattern": "BOYSPP25"
             }
     },
 

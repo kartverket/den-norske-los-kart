@@ -1067,17 +1067,17 @@
                     [
                         "match",
                         ["to-number", ["get", "navnetype"]],
-                        [101],
+                        [3],
                         ["to-string", ["get", "stedsnavn"]],
-                        "crickey"
+                        ""
                     ],
                     4,
                     [
                         "match",
                         ["to-number", ["get", "navnetype"]],
                         [101],
-                        ["to-string", ["get", "stedsnavn"]],
-                        "woops"
+                        ["to-string", ["get", "stedsnavn"]]
+			""
                     ],
           7,
                     [
@@ -1085,7 +1085,7 @@
                         ["to-number", ["get", "navnetype"]],
                         [101],
                         ["to-string", ["get", "stedsnavn"]],
-                        "boo"
+                        ""
                     ]
                 ],
                 "text-size": [

@@ -1388,7 +1388,34 @@
         "line-width": 1,
         "line-color": "rgba(1,1,1,1)"
       }
-    },{
+    },
+	  {
+      "id": "svalbard250_KaiBrygge",
+      "type": "line",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s250_teknisit_linje",
+      "filter": ["==", "objekttypenavn", "KaiBryggeKant"],
+      "paint": {
+        "line-width": 1,
+        "line-color": "rgba(1,1,1,1)"
+      }
+    },
+	  
+	  	  {
+      "id": "svalbard100_KaiBrygge",
+      "type": "line",
+      "minzoom": 11,
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s100_teknisit_linje",
+      "filter": ["==", "objekttypenavn", "KaiBryggeKant"],
+      "paint": {
+        "line-width": 1,
+        "line-color": "rgba(1,1,1,1)"
+      }
+    },
+	  {
       "id": "Navigasjonsinstallasjon",
       "type": "circle",
       "minzoom": 11,

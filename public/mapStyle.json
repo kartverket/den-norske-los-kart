@@ -2018,8 +2018,35 @@
         "line-width": 0.8,
         "line-color": "#ec008c"
       }
-    }
-  ,
+    },
+  
+	  {
+      "id": "svalbard250_Luftledning",
+      "type": "line",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s250_teknisit_linje",
+      "filter": ["==", "objekttypenavn", "LuftledningHSP"],
+      "paint": {
+        "line-width": 0.8,
+        "line-color": "#ec008c"
+      }
+    },
+	  
+	  {
+      "id": "svalbard100_Luftledning",
+      "type": "line",
+      "minzoom": 11,
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s100_teknisit_linje",
+      "filter": ["==", "objekttypenavn", "LuftledningHSP"],
+      "paint": {
+        "line-width": 0.8,
+        "line-color": "#ec008c"
+      }
+    },
+  
   {
       "id": "kommuner",
       "type": "line",

@@ -1076,7 +1076,7 @@
                     [
                          "match",
                         ["to-number",["get", "navnetype"]],
-                        [3, 101],
+                        [101],
                         ["to-string", ["get", "stedsnavn"]],
                         "woops"
                     ],
@@ -1092,7 +1092,7 @@
                 "text-size": [
                     "interpolate",
                     ["linear"],
-                    ["get", "navntype"],
+                    ["get", "navnetype"],
           1, 9,
           3, 18,
           13, 12,
@@ -1113,7 +1113,7 @@
                 "text-color": [
         "interpolate",
                     ["linear"],
-                    ["get", "navntype"],
+                    ["get", "navnetype"],
           1, "rgb(71, 35, 21)",
           3, "rgb(50,50,50)",
           13, "rgb(50,50,50)",

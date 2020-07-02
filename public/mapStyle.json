@@ -385,7 +385,7 @@
       "filter": 
    	 [
           "in",
-          "objtypenavn",
+          "objekttypenavn",
           "veg"
         ],
       "paint": {
@@ -416,8 +416,8 @@
       "filter": 
    	 [
           "in",
-          "objtypenavn",
-          "veg"
+          "objekttypenavn",
+          "SenterlinjeVeg"
         ],
       "paint": {
         "line-color": "#B0B0B0",

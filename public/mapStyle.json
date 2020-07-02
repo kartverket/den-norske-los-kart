@@ -1076,7 +1076,7 @@
                         "match",
                         ["to-number", ["get", "navnetype"]],
                         [101],
-                        ["to-string", ["get", "stedsnavn"]]
+                        ["to-string", ["get", "stedsnavn"]],
 			""
                     ],
           7,

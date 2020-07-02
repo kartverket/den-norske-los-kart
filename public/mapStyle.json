@@ -37,7 +37,7 @@
     },{
       "id": "background_sea",
       "type": "background",
-      "maxzoom": 11,
+      "maxzoom": 12,
       "paint": {
         "background-color": "#e7f6fd"
       }
@@ -148,7 +148,7 @@
       "source": "dnl_sv",
       "source-layer": "svalbard_s250_vann",
       "minzoom": 8,
-      "maxzoom": 13,
+      "maxzoom": 11,
       "paint": {
                 "fill-color": "#e7f6fd"
             }
@@ -172,7 +172,7 @@
       "source": "dnl_sv",
       "source-layer": "svalbard_s250_isbreer",
       "minzoom": 8,
-      "maxzoom": 13,
+      "maxzoom": 11,
       "paint": {
                 "fill-color": "#FFFEFD"
             }
@@ -183,7 +183,7 @@
       "type": "fill",
       "source": "dnl_sv",
       "source-layer": "svalbard_s100_isbreer",
-      "minzoom": 12,
+      "minzoom": 11,
       "maxzoom": 15,
       "paint": {
                 "fill-color": "#FFFEFD"
@@ -972,7 +972,7 @@
       "type": "fill",
       "source": "dnl",
       "source-layer": "svalbard_s100_vann",
-      "minzoom": 10,
+      "minzoom": 11,
       "paint": {
                 "fill-color": "#e7f6fd"
             }

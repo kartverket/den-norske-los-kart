@@ -1057,6 +1057,7 @@
             "source": "dnl_sv",
             "source-layer": "svalbard_s1000_stedsnavn",
             "layout": {
+	    "symbol-sort-key": ["to-number",["get", "ttema"]],
 
       "text-font": [
           "Open Sans Regular"
@@ -1067,7 +1068,7 @@
                     [
                         "match",
                         ["to-number",["get", "navnetype"]],
-                        [3],
+                        [101],
                         ["get", "stedsnavn"],
                         ["get", "stedsnavn"]
                     ],

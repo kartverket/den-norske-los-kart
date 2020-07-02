@@ -1091,7 +1091,7 @@
                 "text-size": [
                     "interpolate",
                     ["linear"],
-                    ["get", "navnetype"],
+                    ["to-number", ["get", "navnetype"]],
           1, 9,
           3, 18,
           13, 12,
@@ -1112,9 +1112,9 @@
                 "text-color": [
         "interpolate",
                     ["linear"],
-                    ["get", "navnetype"],
+                    ["to-number", ["get", "navnetype"]],
           1, "rgb(71, 35, 21)",
-          3, "rgb(50,50,50)",
+          3, "rgb(18, 55, 120)",
           13, "rgb(50,50,50)",
           16, "rgb(71, 35, 21)", 
           31, "rgb(18, 55, 120)",
@@ -1126,7 +1126,7 @@
           87, "rgb(50,50,50)",
           89, "rgb(50,50,50)",
 	  94, "rgb(18, 55, 120)",
-          101, "rgb(50,50,50)"
+          101, "rgb(18, 55, 120)"
         ]
             }
         },

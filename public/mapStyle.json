@@ -1066,15 +1066,15 @@
                     ["zoom"],
                     [
                         "match",
-                        ["get", "navnetype"],
+                        ["to-number", ["get", "navnetype"]],
                         [101],
-                        ["get", "stedsnavn"],
+                        ["to-string", ["get", "stedsnavn"]],
                         "crickey"
                     ],
                     4,
                     [
                          "match",
-                        ["to-number",["get", "navnetype"]],
+                        ["to-number", ["get", "navnetype"]],
                         [101],
                         ["to-string", ["get", "stedsnavn"]],
                         "woops"
@@ -1082,7 +1082,7 @@
           7,
                     [
                         "match",
-                        ["to-number",["get", "navnetype"]],
+                        ["to-number", ["get", "navnetype"]],
                         [101],
                         ["to-string", ["get", "stedsnavn"]],
                         "boo"

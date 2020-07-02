@@ -117,7 +117,7 @@
       "source": "dnl_sv",
       "source-layer": "svalbard_s1000_vann",
       "minzoom": 4,
-      "maxzoom": 11,
+      "maxzoom": 9,
       "paint": {
                 "fill-color": "#e7f6fd"
             }
@@ -147,7 +147,7 @@
       "type": "fill",
       "source": "dnl_sv",
       "source-layer": "svalbard_s250_vann",
-      "minzoom": 10,
+      "minzoom": 8,
       "maxzoom": 13,
       "paint": {
                 "fill-color": "#e7f6fd"
@@ -211,7 +211,7 @@
       "source": "dnl_sv",
       "source-layer": "svalbard_s1000_isbreer",
       "minzoom": 4,
-      "maxzoom": 9,
+      "maxzoom": 8,
       "paint": {
                 "fill-color": "#FFFEFD"
             }
@@ -316,7 +316,7 @@
       "id": "svalbard1000_elver",
       "type": "line",
       "minzoom": 6,
-      "maxzoom": 9,
+      "maxzoom": 8,
       "source": "dnl_sv",
       "source-layer": "svalbard_s1000_elv",
       "paint": {

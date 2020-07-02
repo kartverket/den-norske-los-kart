@@ -405,6 +405,37 @@
       }
     }
     },
+	  
+	  {
+      "id": "svalbard_250_veg",
+      "type": "line",
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s250_teknisit_linje",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "filter": 
+   	 [
+          "in",
+          "objtypenavn",
+          "veg"
+        ],
+      "paint": {
+        "line-color": "#B0B0B0",
+        "line-width": {
+      "base": 1.5,
+      "stops": [
+        [
+          4,
+          1
+        ],
+        [
+          14,
+          3
+        ]
+      ]
+      }
+    }
+    },
 
 {
       "interactive": true,

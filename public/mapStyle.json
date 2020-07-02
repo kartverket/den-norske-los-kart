@@ -1073,7 +1073,7 @@
                     ],
                     4,
                     [
-                         "match",
+                        "match",
                         ["to-number", ["get", "navnetype"]],
                         [101],
                         ["to-string", ["get", "stedsnavn"]],

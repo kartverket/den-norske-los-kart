@@ -318,7 +318,7 @@
       "id": "svalbard250_elver",
       "type": "line",
       "minzoom": 8,
-      "maxzoom": 12,
+      "maxzoom": 11,
       "source": "dnl_sv",
       "source-layer": "svalbard_s250_elv",
       "paint": {
@@ -345,7 +345,7 @@
       "type": "line",
       "minzoom": 11,
       "source": "dnl_sv",
-      "source-layer": "svalbard_s1000_elv",
+      "source-layer": "svalbard_s100_elv",
       "paint": {
         "line-width": 1,
         "line-color": "#e7f6fd"

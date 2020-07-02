@@ -386,7 +386,7 @@
    	 [
           "in",
           "objekttypenavn",
-          "veg"
+          "SenterlinjeVeg"
         ],
       "paint": {
         "line-color": "#B0B0B0",
@@ -418,6 +418,36 @@
           "in",
           "objekttypenavn",
           "SenterlinjeVeg"
+        ],
+      "paint": {
+        "line-color": "#B0B0B0",
+        "line-width": {
+      "base": 1.5,
+      "stops": [
+        [
+          4,
+          1
+        ],
+        [
+          14,
+          3
+        ]
+      ]
+      }
+    }
+    },
+	  
+	   {
+      "id": "svalbard_100_veg",
+      "type": "line",
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s100_teknisit_linje",
+      "minzoom": 11,
+      "filter": 
+   	 [
+          "in",
+          "objekttypenavn",
+          "Veg"
         ],
       "paint": {
         "line-color": "#B0B0B0",

@@ -1216,7 +1216,6 @@
 		    "text-halo-width": 1,
       "text-halo-color": "rgb(254,254,254)"
             }
-            }
         },
 	  
 	   {
@@ -1293,7 +1292,6 @@
         ],
 		    "text-halo-width": 2,
       "text-halo-color": "rgb(254,254,254)"
-            }
             }
         },
 

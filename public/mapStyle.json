@@ -1129,7 +1129,7 @@
 	  94, "rgb(18, 55, 120)",
           101, "rgb(50,50,50)"
         ],
-		    "text-halo-width": [3],
+		    "text-halo-width": 3,
       "text-halo-color": "rgb(254,254,254)"
             }
         },

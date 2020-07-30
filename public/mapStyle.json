@@ -1349,7 +1349,24 @@
         "circle-radius": 2,
         "circle-color": "#351b03"
       }
-    },{
+    },
+	  
+	  {
+      "id": "svalbard100_hoydepunkt",
+      "type": "circle",
+      "minzoom": 12,
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s100_hoydepunkt",
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "circle-radius": 2,
+        "circle-color": "#351b03"
+      }
+    },
+	  
+	  {
       "id": "N50Hoydepunkt_label",
       "type": "symbol",
       "minzoom": 12,
@@ -1367,7 +1384,29 @@
       "paint": {
         "text-color": "#351b03"
       }
-    },{
+    },
+	  
+	  {
+      "id": "svalbard100_hoydepunkt_label",
+      "type": "symbol",
+      "minzoom": 12,
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s100_hoydepunkt",
+      "layout": {
+        "visibility": "visible",
+        "text-font": [
+          "Open Sans Regular"
+        ],
+        "text-size": 10,
+        "text-field": "{hoyde}",
+        "text-anchor": "bottom"
+      },
+      "paint": {
+        "text-color": "#351b03"
+      }
+    },
+	  
+	  {
       "interactive": true,
       "id": "N50Skytefeltgrense",
       "type": "line",

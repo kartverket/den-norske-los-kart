@@ -551,26 +551,6 @@
     }
     },
     
-{
-      "interactive": true,
-      "id": "dybdelag",
-      "minzoom": 12,
-      "type": "fill",
-      "source": "dnl",
-      "source-layer": "Dybdelag",
-      "paint": {
-      "fill-color": [
-      "interpolate",
-      ["linear"],
-      ["to-number",["get", "dybdeverdi_min"]],
-      0.5, "#8cc7ed",
-      5, "#cce9f2",
-      10, "#e7f6fd",
-      2000, "#e7f6fd"
-      ]
-    }
-    },
-    
     	        {
       "id": "torrfall_s57",
       "type": "fill",

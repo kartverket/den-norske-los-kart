@@ -1057,253 +1057,7 @@
             }
         },
 	  
-	  {
-            "id": "svalbard1000_stedsnavn",
-            "type": "symbol",
-            "source": "dnl_sv",
-	    "maxzoom": 8,
-            "source-layer": "svalbard_s1000_stedsnavn",
-            "layout": {
-		    "symbol-sort-key": ["to-number",["get", "ttema"]],
-      "text-font": [
-          "Open Sans Regular"
-        ],
-                "text-field": [
-                    "step",
-                    ["zoom"],
-                    [
-                        "match",
-                        ["to-number", ["get", "navnetype"]],
-                        [3],
-                        ["to-string", ["get", "stedsnavn"]],
-                        ""
-                    ],
-                    4,
-                    [
-                        "match",
-                        ["to-number", ["get", "navnetype"]],
-                        [3,101],
-                        ["to-string", ["get", "stedsnavn"]],
-			""
-                    ],
-          7,
-                    [
-                        "match",
-                        ["to-number", ["get", "navnetype"]],
-                        [3,101],
-                        ["to-string", ["get", "stedsnavn"]],
-                        ""
-                    ]
-                ],
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["to-number", ["get", "navnetype"]],
-          1, 9,
-          3, 14,
-          13, 14,
-          16, 11, 
-          31, 9,
-          50, 10,
-          80, 12,
-          82, 10,
-          84, 10, 
-          86, 10,
-          87, 12,
-          89, 9,
-	  94, 16,
-	  101, 14
-                ]
-            },
-            "paint": {
-                "text-color": [
-        "interpolate",
-                    ["linear"],
-                    ["to-number", ["get", "navnetype"]],
-          1, "rgb(71, 35, 21)",
-          3, "rgb(71, 35, 21)",
-          13, "rgb(50,50,50)",
-          16, "rgb(71, 35, 21)", 
-          31, "rgb(18, 55, 120)",
-          50, "rgb(71, 35, 21)",
-          80, "rgb(18, 55, 120)",
-          82, "rgb(50,50,50)",
-          84, "rgb(50,50,50)", 
-          86, "rgb(50,50,50)",
-          87, "rgb(50,50,50)",
-          89, "rgb(50,50,50)",
-	  94, "rgb(18, 55, 120)",
-          101, "rgb(50,50,50)"
-        ],
-		    "text-halo-width": 1,
-      "text-halo-color": "rgb(254,254,254)"
-            }
-        },
 	  
-	  {
-            "id": "svalbard250_stedsnavn",
-            "type": "symbol",
-            "source": "dnl_sv",
-	    "minzoom": 8,
-	    "maxzoom": 11,
-            "source-layer": "svalbard_s250_stedsnavn",
-            "layout": {
-		    "symbol-sort-key": ["to-number",["get", "ttema"]],
-      "text-font": [
-          "Open Sans Regular"
-        ],
-                "text-field": [
-                    "step",
-                    ["zoom"],
-                    [
-                        "match",
-                        ["to-number", ["get", "navnetype"]],
-                        [3],
-                        ["to-string", ["get", "stedsnavn"]],
-                        ""
-                    ],
-                    8,
-                    [
-                        "match",
-                        ["to-number", ["get", "navnetype"]],
-                        [3,101, 94, 80],
-                        ["to-string", ["get", "stedsnavn"]],
-			""
-                    ],
-          10,
-                    [
-                        "match",
-                        ["to-number", ["get", "navnetype"]],
-                        [3,101, 94, 80, 50, 31, 84, 86],
-                        ["to-string", ["get", "stedsnavn"]],
-                        ""
-                    ]
-                ],
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["to-number", ["get", "navnetype"]],
-          1, 9,
-          3, 14,
-          13, 14,
-          16, 11, 
-          31, 10,
-          50, 10,
-          80, 10,
-          82, 10,
-          84, 10, 
-          86, 10,
-          87, 12,
-          89, 10,
-	  94, 16,
-	  101, 14
-                ]
-            },
-            "paint": {
-                "text-color": [
-        "interpolate",
-                    ["linear"],
-                    ["to-number", ["get", "navnetype"]],
-          1, "rgb(71, 35, 21)",
-          3, "rgb(71, 35, 21)",
-          13, "rgb(50,50,50)",
-          16, "rgb(71, 35, 21)", 
-          31, "rgb(18, 55, 120)",
-          50, "rgb(71, 35, 21)",
-          80, "rgb(18, 55, 120)",
-          82, "rgb(50,50,50)",
-          84, "rgb(50,50,50)", 
-          86, "rgb(50,50,50)",
-          87, "rgb(50,50,50)",
-          89, "rgb(50,50,50)",
-	  94, "rgb(18, 55, 120)",
-          101, "rgb(50,50,50)"
-        ],
-		    "text-halo-width": 1,
-      "text-halo-color": "rgb(254,254,254)"
-            }
-        },
-	  
-	   {
-            "id": "svalbard100_stedsnavn",
-            "type": "symbol",
-            "source": "dnl_sv",
-	    "minzoom": 11,
-            "source-layer": "svalbard_s100_stedsnavn",
-            "layout": {
-		    "symbol-sort-key": ["to-number",["get", "ttema"]],
-      "text-font": [
-          "Open Sans Regular"
-        ],
-                "text-field": [
-                    "step",
-                    ["zoom"],
-                    [
-                        "match",
-                        ["to-number", ["get", "presentasjonskode"]],
-                        [3],
-                        ["to-string", ["get", "stedsnavn"]],
-                        ""
-                    ],
-                    11,
-                    [
-                        "match",
-                        ["to-number", ["get", "presentasjonskode"]],
-                        [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
-                        ["to-string", ["get", "stedsnavn"]],
-			""
-			]
-                    ],
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["to-number", ["get", "presentasjonskode"]],
-          4, 14,
-          5, 12,
-          6, 14,
-          7, 14, 
-          8, 14,
-          9, 12,
-          10, 14,
-          11, 14,
-          12, 12, 
-          13, 12,
-          14, 12,
-          15, 12,
-	  16, 12,
-	  17, 12,
-	  18, 12,
-	  19, 12,
-	  20, 12
-                ]
-            },
-            "paint": {
-                "text-color": [
-        "interpolate",
-                    ["linear"],
-                    ["to-number", ["get", "presentasjonskode"]],
-          4, "rgb(18, 55, 120)",
-          5, "rgb(50,50,50)",
-          6, "rgb(100, 50, 0)", 
-          7, "rgb(50,50,50)",
-          8, "rgb(50,50,50)",
-          9, "rgb(50,50,50)",
-          10, "rgb(18, 55, 120)",
-          11, "rgb(18, 55, 120)", 
-          12, "rgb(50,50,50)",
-          13, "rgb(50,50,50)",
-          14, "rgb(50,50,50)",
-	  15, "rgb(18, 55, 120)",
-          16, "rgb(18, 55, 120)",
-	  17, "rgb(50,50,50)",
-	  18, "rgb(100, 50, 0)",
-	  19, "rgb(18, 55, 120)",
-	  20, "rgb(100, 50, 0)"		
-        ],
-		    "text-halo-width": 1,
-      "text-halo-color": "rgb(254,254,254)"
-            }
-        },
 
     {
       "id": "N50Bygningsflate",
@@ -2324,6 +2078,254 @@
         "line-dasharray": [5, 5]
       }
     },
+	  
+	  {
+            "id": "svalbard1000_stedsnavn",
+            "type": "symbol",
+            "source": "dnl_sv",
+	    "maxzoom": 8,
+            "source-layer": "svalbard_s1000_stedsnavn",
+            "layout": {
+		    "symbol-sort-key": ["to-number",["get", "ttema"]],
+      "text-font": [
+          "Open Sans Regular"
+        ],
+                "text-field": [
+                    "step",
+                    ["zoom"],
+                    [
+                        "match",
+                        ["to-number", ["get", "navnetype"]],
+                        [3],
+                        ["to-string", ["get", "stedsnavn"]],
+                        ""
+                    ],
+                    4,
+                    [
+                        "match",
+                        ["to-number", ["get", "navnetype"]],
+                        [3,101],
+                        ["to-string", ["get", "stedsnavn"]],
+			""
+                    ],
+          7,
+                    [
+                        "match",
+                        ["to-number", ["get", "navnetype"]],
+                        [3,101],
+                        ["to-string", ["get", "stedsnavn"]],
+                        ""
+                    ]
+                ],
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["to-number", ["get", "navnetype"]],
+          1, 9,
+          3, 14,
+          13, 14,
+          16, 11, 
+          31, 9,
+          50, 10,
+          80, 12,
+          82, 10,
+          84, 10, 
+          86, 10,
+          87, 12,
+          89, 9,
+	  94, 16,
+	  101, 14
+                ]
+            },
+            "paint": {
+                "text-color": [
+        "interpolate",
+                    ["linear"],
+                    ["to-number", ["get", "navnetype"]],
+          1, "rgb(71, 35, 21)",
+          3, "rgb(71, 35, 21)",
+          13, "rgb(50,50,50)",
+          16, "rgb(71, 35, 21)", 
+          31, "rgb(18, 55, 120)",
+          50, "rgb(71, 35, 21)",
+          80, "rgb(18, 55, 120)",
+          82, "rgb(50,50,50)",
+          84, "rgb(50,50,50)", 
+          86, "rgb(50,50,50)",
+          87, "rgb(50,50,50)",
+          89, "rgb(50,50,50)",
+	  94, "rgb(18, 55, 120)",
+          101, "rgb(50,50,50)"
+        ],
+		    "text-halo-width": 1,
+      "text-halo-color": "rgb(254,254,254)"
+            }
+        },
+	  
+	  {
+            "id": "svalbard250_stedsnavn",
+            "type": "symbol",
+            "source": "dnl_sv",
+	    "minzoom": 8,
+	    "maxzoom": 11,
+            "source-layer": "svalbard_s250_stedsnavn",
+            "layout": {
+		    "symbol-sort-key": ["to-number",["get", "ttema"]],
+      "text-font": [
+          "Open Sans Regular"
+        ],
+                "text-field": [
+                    "step",
+                    ["zoom"],
+                    [
+                        "match",
+                        ["to-number", ["get", "navnetype"]],
+                        [3],
+                        ["to-string", ["get", "stedsnavn"]],
+                        ""
+                    ],
+                    8,
+                    [
+                        "match",
+                        ["to-number", ["get", "navnetype"]],
+                        [3,101, 94, 80],
+                        ["to-string", ["get", "stedsnavn"]],
+			""
+                    ],
+          10,
+                    [
+                        "match",
+                        ["to-number", ["get", "navnetype"]],
+                        [3,101, 94, 80, 50, 31, 84, 86],
+                        ["to-string", ["get", "stedsnavn"]],
+                        ""
+                    ]
+                ],
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["to-number", ["get", "navnetype"]],
+          1, 9,
+          3, 14,
+          13, 14,
+          16, 11, 
+          31, 10,
+          50, 10,
+          80, 10,
+          82, 10,
+          84, 10, 
+          86, 10,
+          87, 12,
+          89, 10,
+	  94, 16,
+	  101, 14
+                ]
+            },
+            "paint": {
+                "text-color": [
+        "interpolate",
+                    ["linear"],
+                    ["to-number", ["get", "navnetype"]],
+          1, "rgb(71, 35, 21)",
+          3, "rgb(71, 35, 21)",
+          13, "rgb(50,50,50)",
+          16, "rgb(71, 35, 21)", 
+          31, "rgb(18, 55, 120)",
+          50, "rgb(71, 35, 21)",
+          80, "rgb(18, 55, 120)",
+          82, "rgb(50,50,50)",
+          84, "rgb(50,50,50)", 
+          86, "rgb(50,50,50)",
+          87, "rgb(50,50,50)",
+          89, "rgb(50,50,50)",
+	  94, "rgb(18, 55, 120)",
+          101, "rgb(50,50,50)"
+        ],
+		    "text-halo-width": 1,
+      "text-halo-color": "rgb(254,254,254)"
+            }
+        },
+	  
+	   {
+            "id": "svalbard100_stedsnavn",
+            "type": "symbol",
+            "source": "dnl_sv",
+	    "minzoom": 11,
+            "source-layer": "svalbard_s100_stedsnavn",
+            "layout": {
+		    "symbol-sort-key": ["to-number",["get", "ttema"]],
+      "text-font": [
+          "Open Sans Regular"
+        ],
+                "text-field": [
+                    "step",
+                    ["zoom"],
+                    [
+                        "match",
+                        ["to-number", ["get", "presentasjonskode"]],
+                        [3],
+                        ["to-string", ["get", "stedsnavn"]],
+                        ""
+                    ],
+                    11,
+                    [
+                        "match",
+                        ["to-number", ["get", "presentasjonskode"]],
+                        [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+                        ["to-string", ["get", "stedsnavn"]],
+			""
+			]
+                    ],
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["to-number", ["get", "presentasjonskode"]],
+          4, 14,
+          5, 12,
+          6, 14,
+          7, 14, 
+          8, 14,
+          9, 12,
+          10, 14,
+          11, 14,
+          12, 12, 
+          13, 12,
+          14, 12,
+          15, 12,
+	  16, 12,
+	  17, 12,
+	  18, 12,
+	  19, 12,
+	  20, 12
+                ]
+            },
+            "paint": {
+                "text-color": [
+        "interpolate",
+                    ["linear"],
+                    ["to-number", ["get", "presentasjonskode"]],
+          4, "rgb(18, 55, 120)",
+          5, "rgb(50,50,50)",
+          6, "rgb(100, 50, 0)", 
+          7, "rgb(50,50,50)",
+          8, "rgb(50,50,50)",
+          9, "rgb(50,50,50)",
+          10, "rgb(18, 55, 120)",
+          11, "rgb(18, 55, 120)", 
+          12, "rgb(50,50,50)",
+          13, "rgb(50,50,50)",
+          14, "rgb(50,50,50)",
+	  15, "rgb(18, 55, 120)",
+          16, "rgb(18, 55, 120)",
+	  17, "rgb(50,50,50)",
+	  18, "rgb(100, 50, 0)",
+	  19, "rgb(18, 55, 120)",
+	  20, "rgb(100, 50, 0)"		
+        ],
+		    "text-halo-width": 1,
+      "text-halo-color": "rgb(254,254,254)"
+            }
+        },
   {
             "id": "place-city-label_500",
             "type": "symbol",

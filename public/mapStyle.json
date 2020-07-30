@@ -196,6 +196,35 @@
             }
     },
 	  
+	  {
+      "interactive": true,
+      "id": "svalbard250_koter",
+      "minzoom": 10,
+      "maxzoom": 13,
+      "type": "line",
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s250_koter",
+      "paint": {
+        "line-width": 1,
+        "line-color": "rgba(200,133,70,1)",
+        "line-blur": 1.8
+      }
+    },
+	  
+	  	  {
+      "interactive": true,
+      "id": "svalbard100_koter",
+      "minzoom": 12,
+      "type": "line",
+      "source": "dnl_sv",
+      "source-layer": "svalbard_s100_koter",
+      "paint": {
+        "line-width": 1,
+        "line-color": "rgba(200,133,70,1)",
+        "line-blur": 1.8
+      }
+    },
+	  
 	  	  	  {
       "id": "svalbard100_flyplass",
       "type": "fill",

@@ -1398,7 +1398,7 @@
           "Open Sans Regular"
         ],
         "text-size": 10,
-        "text-field": ["to-string",["to-number",["round",["get","hoyde"]]]],
+        "text-field": ["number-format",["round",["get","hoyde"]]],
         "text-anchor": "bottom"
       },
       "paint": {

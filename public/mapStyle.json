@@ -1399,7 +1399,7 @@
         ],
         "text-size": 10,
         "text-field": ["format",
-		       ["round",["get","hoyde"]],
+		       ["to-string",["round",["get","hoyde"]]],
 		       ""
 		       ],      
         "text-anchor": "bottom"

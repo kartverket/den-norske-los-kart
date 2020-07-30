@@ -1400,7 +1400,7 @@
         "text-size": 10,
         "text-field": ["format",
 		       ["round",["get","hoyde"]],
-		       "",
+		       ""
 		       ],      
         "text-anchor": "bottom"
       },

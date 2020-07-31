@@ -529,7 +529,27 @@
       }
     },
     
-    	
+    {
+      "interactive": true,
+      "id": "dybdelag_s57",
+      "minzoom": 10,
+      "maxzoom": 12,
+      "type": "fill",
+      "source": "s57",
+      "source-layer": "DEPARE",
+      "paint": {
+      "fill-color": [
+      "interpolate",
+      ["linear"],
+      ["to-number",["get", "DRVAL2"]],
+		0, "#8cc7ed",
+		20, "#8cc7ed",
+		50, "#cce9f2",
+		100, "#e7f6fd",
+		2000, "#e7f6fd"
+      ]
+    }
+    },	
     
     	        {
       "id": "torrfall_s57",

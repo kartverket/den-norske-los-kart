@@ -1120,7 +1120,28 @@
         "line-width": 1,
         "line-color": "#e7f6fd"
     }
-      },{
+      },
+	  
+	  {
+      "id": "Dybdelag",
+      "type": "fill",
+      "minzoom": 11,
+      "source": "dnl",
+      "source-layer": "Dybdelag",
+      "paint": {
+      "fill-color": [
+      "interpolate",
+      ["linear"],
+      ["to-number",["get", "dybdeverdi_min"]],
+      0.5, "#8cc7ed",
+      50, "#cce9f2",
+      100, "#e7f6fd",
+      2000, "#e7f6fd"
+]
+}
+    },
+	  
+	  {
       "id": "Dybdekontur",
       "type": "line",
       "minzoom": 11,

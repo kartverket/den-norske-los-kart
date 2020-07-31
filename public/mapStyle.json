@@ -1126,7 +1126,7 @@
       "id": "Dybdelag",
       "type": "fill",
       "minzoom": 12,
-      "source": "dnl",
+      "source": "dnl_sv",
       "source-layer": "Dybdelag",
       "paint": {
       "fill-color": [

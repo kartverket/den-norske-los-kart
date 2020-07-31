@@ -1132,7 +1132,7 @@
       "fill-color": [
       "interpolate",
       ["linear"],
-      ["to-number",["get", "dybdeverdi_min"]],
+      ["to-number",["get", "minimumsdybde"]],
       1, "#0df2ea",
 	10, "#1ce3e1",
 	20, "#27c9d8",

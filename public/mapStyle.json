@@ -1125,7 +1125,7 @@
 	  {
       "id": "Dybdelag",
       "type": "fill",
-      "minzoom": 12,
+      "minzoom": 11,
       "source": "dnl_sv",
       "source-layer": "Dybdelag",
       "paint": {
@@ -1133,14 +1133,10 @@
       "interpolate",
       ["linear"],
       ["to-number",["get", "minimumsdybde"]],
-      1, "#0df2ea",
-	10, "#1ce3e1",
-	20, "#27c9d8",
-	30, "#37acc8",
-	40, "#2b70d4",
-      50, "#473ac5",
-      100, "#a640bf",
-      2000, "#bd429b"
+      0.5, "#8cc7ed",
+      5, "#cce9f2",
+      10, "#e7f6fd",
+      2000, "#e7f6fd"
 ]
 }
     },

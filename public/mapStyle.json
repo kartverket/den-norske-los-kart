@@ -1125,7 +1125,7 @@
 	  {
       "id": "Dybdelag",
       "type": "fill",
-      "minzoom": 11,
+      "minzoom": 12,
       "source": "dnl",
       "source-layer": "Dybdelag",
       "paint": {
@@ -1133,10 +1133,14 @@
       "interpolate",
       ["linear"],
       ["to-number",["get", "dybdeverdi_min"]],
-      1, "rgba(1,1,1,1)",
-      50, "rgba(254,0,0,1)",
-      100, "rgba(0,254,0,1)",
-      2000, "rgba(0,0,254,1)"
+      1, "#0df2ea",
+	10, "#1ce3e1",
+	20, "#27c9d8",
+	30, "#37acc8",
+	40, "#2b70d4",
+      50, "#473ac5",
+      100, "#a640bf",
+      2000, "#bd429b"
 ]
 }
     },

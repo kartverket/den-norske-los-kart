@@ -1133,7 +1133,7 @@
       "interpolate",
       ["linear"],
       ["to-number",["get", "dybdeverdi_min"]],
-      0.5, "rgba(1,1,1,1)",
+      1, "rgba(1,1,1,1)",
       50, "rgba(254,0,0,1)",
       100, "rgba(0,254,0,1)",
       2000, "rgba(0,0,254,1)"

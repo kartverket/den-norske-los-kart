@@ -1127,9 +1127,7 @@
       "source-layer": "N50Anleggspunkt",
       "filter": ["==", "objtype", "Tårn"],
       "layout": {
-        "visibility": "visible"
-      },
-      "layout": {
+        "visibility": "visible",
         "icon-image": "TOWERS03",
         "icon-allow-overlap": true
       }

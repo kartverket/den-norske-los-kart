@@ -10,8 +10,9 @@
     "dnl": {
       "type": "vector",
       "maxzoom":14,
-      "tiles": ["https://cache.kartverket.no/dnl/{z}/{x}/{y}.mvt"]
+      "tiles": ["https://cache.kartverket.no/test/dnl/{z}/{x}/{y}.mvt"]
   },
+
     "fjellskygge2": {
       "type": "raster",
       "tiles": [
@@ -255,7 +256,7 @@
       "fill-color": [
       "interpolate",
       ["linear"],
-      ["to-number",["get", "dybdeverdi_min"]],
+      ["to-number",["get", "minimumsdybde"]],
       0.5, "#8cc7ed",
       5, "#cce9f2",
       10, "#e7f6fd",
@@ -817,7 +818,7 @@
       "fill-color": [
       "interpolate",
       ["linear"],
-      ["to-number",["get", "dybdeverdi_min"]],
+      ["to-number",["get", "minimumsdybde"]],
       0.5, "#8cc7ed",
       5, "#cce9f2",
       10, "#e7f6fd",
@@ -855,7 +856,7 @@
         "fill-color": [
             "interpolate",
             ["linear"],
-            ["to-number",["get", "dybdeverdi_min"]],
+            ["to-number",["get", "minimumsdybde"]],
       0.5, "#8cc7ed",
       5, "#cce9f2",
       10, "#e7f6fd",
@@ -1259,8 +1260,8 @@
         ],
 
         "text-size": 9,
-        "symbol-sort-key":["to-number", ["get", "dybdeverdi"]],
-        "text-field":["get", "dybdeverdi"]
+        "symbol-sort-key":["to-number", ["get", "dybde"]],
+        "text-field":["get", "dybde"]
       },
       "paint": {
         "text-color": "#000000",
@@ -1283,8 +1284,8 @@
           "Open Sans Regular"
         ],
         "text-size": 9,
-        "symbol-sort-key":["to-number", ["get", "dybdeverdi"]],
-        "text-field":["get", "dybdeverdi"]
+        "symbol-sort-key":["to-number", ["get", "dybde"]],
+        "text-field":["get", "dybde"]
       },
       "paint": {
         "text-color": "rgba(1,1,1,1)",
@@ -1558,8 +1559,8 @@
       "id": "LIGHTS_LEG",
       "type": "line",
       "minzoom": 11,
-      "source": "s57",
-      "source-layer": "LIGHTS_LEG",
+      "source": "dnl",
+      "source-layer": "sektorlinje",
       "paint": {
         "line-color": "#000000",
         "line-width": 0.2,
@@ -1943,8 +1944,8 @@
           "Open Sans Bold"
         ],
         "text-size": 10,
-        "symbol-sort-key": ["to-number",["get", "dybdeverdi"]],
-        "text-field": ["get", "dybdeverdi"]
+        "symbol-sort-key": ["to-number",["get", "dybde"]],
+        "text-field": ["get", "dybde"]
       },
       "paint": {
         "text-color": "rgba(5,5,5,1)",

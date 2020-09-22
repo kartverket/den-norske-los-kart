@@ -120,7 +120,7 @@
 	   {
       "id": "svalbard1000_vann",
       "type": "fill",
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s1000_vann",
       "minzoom": 4,
       "maxzoom": 9,
@@ -151,7 +151,7 @@
 	  	   {
       "id": "svalbard250_vann",
       "type": "fill",
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s250_vann",
       "minzoom": 8,
       "maxzoom": 11,
@@ -163,7 +163,7 @@
 	  	   {
       "id": "svalbard1000_isbre",
       "type": "fill",
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s1000_isbreer",
       "minzoom": 4,
       "maxzoom": 8,
@@ -175,7 +175,7 @@
 	  	  	   {
       "id": "svalbard250_isbre",
       "type": "fill",
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s250_isbreer",
       "minzoom": 8,
       "maxzoom": 11,
@@ -187,7 +187,7 @@
 	  	  	   {
       "id": "svalbard100_isbre",
       "type": "fill",
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s100_isbreer",
       "minzoom": 11,
       "maxzoom": 15,
@@ -202,7 +202,7 @@
       "minzoom": 10,
       "maxzoom": 13,
       "type": "line",
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s250_koter",
       "paint": {
         "line-width": 1,
@@ -216,7 +216,7 @@
       "id": "svalbard100_koter",
       "minzoom": 12,
       "type": "line",
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s100_koter",
       "paint": {
         "line-width": 1,
@@ -229,7 +229,7 @@
       "id": "svalbard100_flyplass",
       "type": "fill",
       "minzoom": 11,
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s100_teknsit",
       "filter": ["==", "objekttypenavn", "Rullebane"],
       "paint": {
@@ -313,7 +313,7 @@
       "type": "line",
       "minzoom": 6,
       "maxzoom": 8,
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s1000_elv",
       "paint": {
         "line-color": "#e7f6fd",
@@ -366,7 +366,7 @@
       "type": "line",
       "minzoom": 8,
       "maxzoom": 11,
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s250_elv",
       "paint": {
         "line-color": "#e7f6fd",
@@ -391,7 +391,7 @@
       "id": "svalbard100_elver",
       "type": "line",
       "minzoom": 11,
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s100_elv",
       "paint": {
         "line-width": 1,
@@ -402,7 +402,7 @@
 	  	  	   {
       "id": "svalbard250_elvesletter",
       "type": "fill",
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s250_elvesletter",
       "minzoom": 10,
       "maxzoom": 11,
@@ -414,7 +414,7 @@
 	  	   {
       "id": "svalbard100_elvesletter",
       "type": "fill",
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s100_elvesletter",
       "minzoom": 11,
       "paint": {
@@ -425,7 +425,7 @@
 	  {
       "id": "svalbard_1000_veg",
       "type": "line",
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s1000_teknisit_linje",
       "minzoom": 6,
       "maxzoom": 8,
@@ -456,7 +456,7 @@
 	  {
       "id": "svalbard_250_veg",
       "type": "line",
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s250_teknisit_linje",
       "minzoom": 8,
       "maxzoom": 11,
@@ -487,7 +487,7 @@
 	   {
       "id": "svalbard_100_veg",
       "type": "line",
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s100_teknisit_linje",
       "minzoom": 11,
       "filter": 
@@ -583,7 +583,7 @@
 	          {
       "id": "svalbard_torrfall",
       "type": "fill",
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s250_torrfall",
       "minzoom": 10,
       "paint": {
@@ -1091,7 +1091,7 @@
 	  	  	   {
       "id": "svalbard100_vann",
       "type": "fill",
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s100_vann",
       "minzoom": 11,
       "paint": {
@@ -1126,7 +1126,7 @@
       "id": "Dybdelag",
       "type": "fill",
       "minzoom": 11,
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "Dybdelag",
       "paint": {
       "fill-color": [
@@ -1339,7 +1339,7 @@
       "id": "svalbard100_hoydepunkt",
       "type": "circle",
       "minzoom": 12,
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s100_hoydepunkt",
       "layout": {
         "visibility": "visible"
@@ -1374,7 +1374,7 @@
       "id": "svalbard100_hoydepunkt_label",
       "type": "symbol",
       "minzoom": 12,
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s100_hoydepunkt",
       "layout": {
         "visibility": "visible",
@@ -1466,7 +1466,7 @@
       "type": "line",
       "minzoom": 8,
       "maxzoom": 11,
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s250_teknisit_linje",
       "filter": ["==", "objekttypenavn", "KaiBryggeKant"],
       "paint": {
@@ -1479,7 +1479,7 @@
       "id": "svalbard100_KaiBrygge",
       "type": "line",
       "minzoom": 11,
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s100_teknisit_linje",
       "filter": ["==", "objekttypenavn", "KaiBryggeKant"],
       "paint": {
@@ -2097,7 +2097,7 @@
       "type": "line",
       "minzoom": 8,
       "maxzoom": 11,
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s250_teknisit_linje",
       "filter": ["==", "objekttypenavn", "LuftledningHSP"],
       "paint": {
@@ -2110,7 +2110,7 @@
       "id": "svalbard100_Luftledning",
       "type": "line",
       "minzoom": 11,
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_s100_teknisit_linje",
       "filter": ["==", "objekttypenavn", "LuftledningHSP"],
       "paint": {
@@ -2134,7 +2134,7 @@
 	  {
             "id": "svalbard1000_stedsnavn",
             "type": "symbol",
-            "source": "dnl_sv",
+            "source": "dnl",
 	    "maxzoom": 8,
             "source-layer": "svalbard_s1000_stedsnavn",
             "layout": {
@@ -2217,7 +2217,7 @@
 	  {
             "id": "svalbard250_stedsnavn",
             "type": "symbol",
-            "source": "dnl_sv",
+            "source": "dnl",
 	    "minzoom": 8,
 	    "maxzoom": 11,
             "source-layer": "svalbard_s250_stedsnavn",
@@ -2301,7 +2301,7 @@
 	   {
             "id": "svalbard100_stedsnavn",
             "type": "symbol",
-            "source": "dnl_sv",
+            "source": "dnl",
 	    "minzoom": 11,
             "source-layer": "svalbard_s100_stedsnavn",
             "layout": {

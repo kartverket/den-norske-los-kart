@@ -10,7 +10,7 @@
     "dnl": {
       "type": "vector",
       "maxzoom":14,
-      "tiles": ["https://cache.kartverket.no/dnl/{z}/{x}/{y}.mvt"]
+      "tiles": ["https://cache.kartverket.no/test/dnl/{z}/{x}/{y}.mvt"]
   },
 	  "dnl_sv": {
       "type": "vector",
@@ -93,7 +93,7 @@
       "id": "svalbard_land",
       "type": "fill",
       "maxzoom": 15,
-      "source": "dnl_sv",
+      "source": "dnl",
       "source-layer": "svalbard_land",
       "paint": {
       "fill-color": "#ffefc6"

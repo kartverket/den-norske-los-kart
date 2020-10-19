@@ -21,6 +21,7 @@
   }
   },
   "sprite": "https://dnl.maplytic.no/sprite/branch/${NAVIZ_GIT_BRANCH}/sprite",
+  "spriteDev": "http://127.0.0.1:8083/sprite/maplytic-repos/dnl.maplytic.no/public/sprite",
   "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   "layers": [
     {
@@ -1679,6 +1680,55 @@
             "type": "identity"
         },
         "icon-rotation-alignment": "map"
+      }
+    }, {
+      "id": "skvalpeskjaer",
+      "type": "symbol",
+      "minzoom": 11,
+      "source": "s57",
+      "source-layer": "UWTROC",
+      "filter": [
+          "all",
+          ["==", "WATLEV", 5],
+          [">=", "VALSOU", 0],
+          ["<=", "VALSOU", 0.5]
+      ],
+      "layout": {
+        "icon-image": "skvalpeskjaer",
+        "icon-allow-overlap": true
+      }
+    },
+    {
+      "id": "stjernelus",
+      "type": "symbol",
+      "minzoom": 11,
+      "source": "s57",
+      "source-layer": "UWTROC",
+      "filter": [
+          "all",
+          ["==", "WATLEV", 4],
+          ["<", "VALSOU", 0]
+      ],
+      "layout": {
+        "icon-image": "stjernelus",
+        "icon-allow-overlap": true
+      }
+    },
+    {
+      "id": "grunne",
+      "type": "symbol",
+      "minzoom": 11,
+      "source": "s57",
+      "source-layer": "UWTROC",
+      "filter": [
+          "all",
+          ["==", "WATLEV", 3],
+          [">=", "VALSOU", 0.6],
+          ["<=", "VALSOU", 9.9]
+      ],
+      "layout": {
+        "icon-image": "grunne",
+        "icon-allow-overlap": true
       }
     },{
       "id": "Luftledning",

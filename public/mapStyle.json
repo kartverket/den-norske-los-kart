@@ -1277,7 +1277,7 @@
 		[">=", 0],
 		 ["<=", 30]],		
 		["get", "dybde"],
-		"test worked"
+		"test worked"]
       },
 	    
 	    

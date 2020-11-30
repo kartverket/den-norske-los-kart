@@ -1269,7 +1269,7 @@
         ],
         "text-size": 20,
         "symbol-sort-key":["to-number", ["get", "dybde"]],
-        "text-field":["case", ["<=",["to-number",["get", "dybde"]],30], ["get", "dybde"], ["get", ["round",["get","dybde"] "-" 0.5]]
+        "text-field":["case", ["<=",["to-number",["get", "dybde"]],30], ["get", "dybde"], ["get", ["round", ["get","dybde"] "-" 0.5]]]
       },	    
       "paint": {
         "text-color": "rgba(1,1,1,1)",

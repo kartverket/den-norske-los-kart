@@ -1269,8 +1269,18 @@
         ],
         "text-size": 20,
         "symbol-sort-key":["to-number", ["get", "dybde"]],
-        "text-field":["get", "dybde"]
+        "text-field":[
+		"step",
+		"match",
+		["to-number",["get", "dybde"]],
+		["ALL",
+		[">=", 0],
+		 ["<=", 30]],		
+		["get", "dybde"],
+		"test worked"
       },
+	    
+	    
       "paint": {
         "text-color": "rgba(1,1,1,1)",
         "text-halo-width": 1.5,

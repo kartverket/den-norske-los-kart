@@ -1279,14 +1279,8 @@
 		[">=", 0],
 		 ["<=", 30]]],		
 		["get", "dybde"]
-		 ]
+		 ]]
       },
-		
-		"text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["to-number",["get", "skriftkode"]],
-          1, 25,
 	    
 	    
       "paint": {

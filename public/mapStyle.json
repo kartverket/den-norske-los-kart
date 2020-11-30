@@ -1267,7 +1267,7 @@
         "text-font": [
           "Open Sans Regular"
         ],
-        "text-size": 9,
+        "text-size": 20,
         "symbol-sort-key":["to-number", ["get", "dybde"]],
         "text-field":["get", "dybde"]
       },

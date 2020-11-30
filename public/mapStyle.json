@@ -1270,16 +1270,8 @@
         "text-size": 20,
         "symbol-sort-key":["to-number", ["get", "dybde"]],
         "text-field":[
-		"interpolate", 
-		["linear"], 
-		[
-		["match",
-		["to-number",["get", "dybde"]],
-		["ALL",
-		[">=", 0],
-		 ["<=", 30]]],		
-		["get", "dybde"]
-		 ]]
+		"case", ["<=",["to-number",["get", "dybde"]]], ["get", "dybde"], "this worked"
+		]
       },
 	    
 	    

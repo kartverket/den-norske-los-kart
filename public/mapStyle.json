@@ -1270,8 +1270,7 @@
         "text-size": 20,
         "symbol-sort-key":["to-number", ["get", "dybde"]],
         "text-field":[
-		"case", ["<=",["to-number",["get", "dybde"]], ["get", "dybde"], "this worked"]
-		]
+		"case", ["<=",["to-number",["get", "dybde"]]], ["get", "dybde"], "this worked"]
       },
 	    
 	    

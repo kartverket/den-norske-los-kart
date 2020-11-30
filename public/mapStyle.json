@@ -1270,15 +1270,23 @@
         "text-size": 20,
         "symbol-sort-key":["to-number", ["get", "dybde"]],
         "text-field":[
-		"step",
-		"match",
+		"interpolate", 
+		["linear"], 
+		[
+		["match",
 		["to-number",["get", "dybde"]],
 		["ALL",
 		[">=", 0],
-		 ["<=", 30]],		
-		["get", "dybde"],
-		"test worked"]
+		 ["<=", 30]]],		
+		["get", "dybde"]
+		 ]
       },
+		
+		"text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["to-number",["get", "skriftkode"]],
+          1, 25,
 	    
 	    
       "paint": {

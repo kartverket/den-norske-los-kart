@@ -4,13 +4,13 @@
   "sources": {
     "s57": {
       "type": "vector",
-    "maxzoom":14,
-      "tiles": ["https://s3-eu-west-1.amazonaws.com/maplytic-blob-public/85d855bc-7151-4d92-9afe-feb1b5c9059f/tile/_dnlvt/{z}/{x}/{y}.mvt"]
+    "maxzoom":16,
+      "tiles": ["https://tile.ecc.no/tile/dnlvt/{z}/{x}/{y}.mvt?api_key=AC17360A-808A-432F-BC71-1D6C3B89A03C"]
     },
     "dnl": {
       "type": "vector",
       "maxzoom":14,
-      "tiles": ["https://cache.kartverket.no/test/dnl/{z}/{x}/{y}.mvt"]
+      "tiles": ["https://cache.kartverket.no/dnl/{z}/{x}/{y}.mvt"]
   },
     
     "fjellskygge2": {

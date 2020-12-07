@@ -1,1 +1,12 @@
-<?xml version="1.0" standalone="yes"?><svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" data-name="Layer 2" viewBox="0 0 1 1" style="zoom: 1;" width="3mm" height="3mm"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:0.11px;}</style></defs><line class="cls-1" x1="0.5" y1="-0.01" x2="0.5" y2="1"></line><line class="cls-1" x1="0.05" y1="0.75" x2="0.95" y2="0.24"></line><line class="cls-1" x1="0.05" y1="0.24" x2="0.95" y2="0.75"></line></svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="Guide">
+</g>
+<g id="uwroc112-IK12">
+	<path d="M24.257,23.743v-1.029h-0.539v1.029h-1.029v0.539h1.029v1.029h0.539v-1.029h1.029v-0.539H24.257z M23.351,22.983
+		c0,0.203-0.165,0.368-0.368,0.368s-0.368-0.165-0.368-0.368s0.165-0.368,0.368-0.368S23.351,22.78,23.351,22.983z M23.351,25.017
+		c0,0.203-0.165,0.368-0.368,0.368s-0.368-0.165-0.368-0.368s0.165-0.368,0.368-0.368S23.351,24.814,23.351,25.017z M25.385,22.983
+		c0,0.203-0.165,0.368-0.368,0.368s-0.368-0.165-0.368-0.368s0.165-0.368,0.368-0.368S25.385,22.78,25.385,22.983z M25.385,25.017
+		c0,0.203-0.165,0.368-0.368,0.368s-0.368-0.165-0.368-0.368s0.165-0.368,0.368-0.368S25.385,24.814,25.385,25.017z"/>
+</g>
+</svg>

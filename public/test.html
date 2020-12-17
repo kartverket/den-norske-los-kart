@@ -43,7 +43,8 @@
         container: 'map',
         style: 'mapStyle.json',
         center: [params.lon, params.lat],
-        zoom: params.zoom
+        zoom: params.zoom,
+        hash: true
     });
     
     map.on('mousemove', function (e) {

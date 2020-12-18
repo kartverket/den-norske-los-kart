@@ -12,7 +12,7 @@
       "maxzoom":14,
       "tiles": ["https://cache.kartverket.no/dnl/{z}/{x}/{y}.mvt"]
   },
-
+    
     "fjellskygge2": {
       "type": "raster",
       "tiles": [
@@ -33,7 +33,7 @@
     },{
       "id": "background_sea",
       "type": "background",
-      "maxzoom": 11,
+      "maxzoom": 12,
       "paint": {
         "background-color": "#e7f6fd"
       }
@@ -78,6 +78,17 @@
       "fill-color": "#ffefc6"
       }
     },
+	  
+	  {
+      "id": "svalbard_land",
+      "type": "fill",
+      "maxzoom": 15,
+      "source": "dnl",
+      "source-layer": "svalbard_land",
+      "paint": {
+      "fill-color": "#ffefc6"
+      }
+    },
         {
       "id": "Vannflate2000",
       "type": "fill",
@@ -95,6 +106,19 @@
                 "fill-color": "#e7f6fd"
             }
     },
+	  
+	   {
+      "id": "svalbard1000_vann",
+      "type": "fill",
+      "source": "dnl",
+      "source-layer": "svalbard_s1000_vann",
+      "minzoom": 4,
+      "maxzoom": 9,
+      "paint": {
+                "fill-color": "#e7f6fd"
+            }
+    },
+	  
     {
       "id": "Vannflate500",
       "type": "fill",
@@ -112,7 +136,98 @@
       "paint": {
                 "fill-color": "#e7f6fd"
             }
-    },{
+    },
+	  
+	  	   {
+      "id": "svalbard250_vann",
+      "type": "fill",
+      "source": "dnl",
+      "source-layer": "svalbard_s250_vann",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "paint": {
+                "fill-color": "#e7f6fd"
+            }
+    },
+	  
+	  	   {
+      "id": "svalbard1000_isbre",
+      "type": "fill",
+      "source": "dnl",
+      "source-layer": "svalbard_s1000_isbreer",
+      "minzoom": 4,
+      "maxzoom": 8,
+      "paint": {
+                "fill-color": "#FFFEFD"
+            }
+    },
+	  
+	  	  	   {
+      "id": "svalbard250_isbre",
+      "type": "fill",
+      "source": "dnl",
+      "source-layer": "svalbard_s250_isbreer",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "paint": {
+                "fill-color": "#FFFEFD"
+            }
+    },
+	  
+	  	  	   {
+      "id": "svalbard100_isbre",
+      "type": "fill",
+      "source": "dnl",
+      "source-layer": "svalbard_s100_isbreer",
+      "minzoom": 11,
+      "maxzoom": 15,
+      "paint": {
+                "fill-color": "#FFFEFD"
+            }
+    },
+	  
+	  {
+      "interactive": true,
+      "id": "svalbard250_koter",
+      "minzoom": 10,
+      "maxzoom": 13,
+      "type": "line",
+      "source": "dnl",
+      "source-layer": "svalbard_s250_koter",
+      "paint": {
+        "line-width": 1,
+        "line-color": "rgba(200,133,70,1)",
+        "line-blur": 1.8
+      }
+    },
+	  
+	  	  {
+      "interactive": true,
+      "id": "svalbard100_koter",
+      "minzoom": 12,
+      "type": "line",
+      "source": "dnl",
+      "source-layer": "svalbard_s100_koter",
+      "paint": {
+        "line-width": 1,
+        "line-color": "rgba(200,133,70,1)",
+        "line-blur": 1.8
+      }
+    },
+	  
+	  	  	  {
+      "id": "svalbard100_flyplass",
+      "type": "fill",
+      "minzoom": 11,
+      "source": "dnl",
+      "source-layer": "svalbard_s100_teknsit",
+      "filter": ["==", "objekttypenavn", "Rullebane"],
+      "paint": {
+        "fill-color": "#A8A8A8"
+      }
+    },
+	  
+	  {
       "id": "fjellskygge2000",
       "type": "raster",
       "maxzoom": 11,
@@ -181,6 +296,33 @@
       "line-blur": 1.5
       }
     },
+	  
+	  {
+      "interactive": true,
+      "id": "svalbard1000_elver",
+      "type": "line",
+      "minzoom": 6,
+      "maxzoom": 8,
+      "source": "dnl",
+      "source-layer": "svalbard_s1000_elv",
+      "paint": {
+        "line-color": "#e7f6fd",
+        "line-width": {
+      "base": 1,
+      "stops": [
+        [
+          8,
+          2
+        ],
+        [
+          12,
+          4
+        ]
+      ]
+      },
+      "line-blur": 1.5
+      }
+    },
     {
       "interactive": true,
       "id": "N500Elver",
@@ -207,6 +349,160 @@
       "line-blur": 1.5
       }
     },
+	  
+	  {
+      "interactive": true,
+      "id": "svalbard250_elver",
+      "type": "line",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "source": "dnl",
+      "source-layer": "svalbard_s250_elv",
+      "paint": {
+        "line-color": "#e7f6fd",
+        "line-width": {
+      "base": 1,
+      "stops": [
+        [
+          8,
+          1.5
+        ],
+        [
+          12,
+          5
+        ]
+      ]
+      },
+      "line-blur": 1.5
+      }
+    },
+	  
+	  	  {
+      "id": "svalbard100_elver",
+      "type": "line",
+      "minzoom": 11,
+      "source": "dnl",
+      "source-layer": "svalbard_s100_elv",
+      "paint": {
+        "line-width": 1,
+        "line-color": "#e7f6fd"
+      }
+    },
+	  
+	  	  	   {
+      "id": "svalbard250_elvesletter",
+      "type": "fill",
+      "source": "dnl",
+      "source-layer": "svalbard_s250_elvesletter",
+      "minzoom": 10,
+      "maxzoom": 11,
+      "paint": {
+                "fill-color": "#b9e3f9"
+            }
+    },
+	  
+	  	   {
+      "id": "svalbard100_elvesletter",
+      "type": "fill",
+      "source": "dnl",
+      "source-layer": "svalbard_s100_elvesletter",
+      "minzoom": 11,
+      "paint": {
+                "fill-color": "#b9e3f9"
+            }
+    },
+	  
+	  {
+      "id": "svalbard_1000_veg",
+      "type": "line",
+      "source": "dnl",
+      "source-layer": "svalbard_s1000_teknisit_linje",
+      "minzoom": 6,
+      "maxzoom": 8,
+      "filter": 
+   	 [
+          "in",
+          "objekttypenavn",
+          "SenterlinjeVeg"
+        ],
+      "paint": {
+        "line-color": "#B0B0B0",
+        "line-width": {
+      "base": 1.5,
+      "stops": [
+        [
+          4,
+          1
+        ],
+        [
+          14,
+          3
+        ]
+      ]
+      }
+    }
+    },
+	  
+	  {
+      "id": "svalbard_250_veg",
+      "type": "line",
+      "source": "dnl",
+      "source-layer": "svalbard_s250_teknisit_linje",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "filter": 
+   	 [
+          "in",
+          "objekttypenavn",
+          "SenterlinjeVeg"
+        ],
+      "paint": {
+        "line-color": "#B0B0B0",
+        "line-width": {
+      "base": 1.5,
+      "stops": [
+        [
+          4,
+          1
+        ],
+        [
+          14,
+          3
+        ]
+      ]
+      }
+    }
+    },
+	  
+	   {
+      "id": "svalbard_100_veg",
+      "type": "line",
+      "source": "dnl",
+      "source-layer": "svalbard_s100_teknisit_linje",
+      "minzoom": 11,
+      "filter": 
+   	 [
+          "in",
+          "objekttypenavn",
+          "Veg"
+        ],
+      "paint": {
+        "line-color": "#B0B0B0",
+        "line-width": {
+      "base": 1.5,
+      "stops": [
+        [
+          4,
+          1
+        ],
+        [
+          14,
+          3
+        ]
+      ]
+      }
+    }
+    },
 
 {
       "interactive": true,
@@ -223,7 +519,7 @@
       }
     },
     
-    	{
+    {
       "interactive": true,
       "id": "dybdelag_s57",
       "minzoom": 10,
@@ -289,6 +585,17 @@
       "source": "dnl",
       "source-layer": "Torrfall",
       "minzoom": 12,
+      "paint": {
+        "fill-color": "#6bbfab"
+      }
+    },
+	  
+	          {
+      "id": "svalbard_torrfall",
+      "type": "fill",
+      "source": "dnl",
+      "source-layer": "svalbard_s250_torrfall",
+      "minzoom": 10,
       "paint": {
         "fill-color": "#6bbfab"
       }
@@ -768,6 +1075,8 @@
         ]
             }
         },
+	  
+	  
 
     {
       "id": "N50Bygningsflate",
@@ -788,7 +1097,18 @@
       "paint": {
         "fill-color": "#e7f6fd"
       }
-    },{
+    },
+	  	  	   {
+      "id": "svalbard100_vann",
+      "type": "fill",
+      "source": "dnl",
+      "source-layer": "svalbard_s100_vann",
+      "minzoom": 11,
+      "paint": {
+                "fill-color": "#e7f6fd"
+            }
+    },
+	  {
       "id": "N50Elver",
       "type": "line",
       "minzoom": 11,
@@ -798,7 +1118,9 @@
         "line-width": 1,
         "line-color": "#e7f6fd"
       }
-    },{
+    },
+	  
+	  {
       "id": "N50Flomlop",
       "type": "line",
       "minzoom": 11,
@@ -809,6 +1131,7 @@
         "line-color": "#e7f6fd"
     }
       },
+    
 	  {
       "id": "Dybdekontur",
       "type": "line",
@@ -1001,7 +1324,24 @@
         "circle-radius": 2,
         "circle-color": "#351b03"
       }
-    },{
+    },
+	  
+	  {
+      "id": "svalbard100_hoydepunkt",
+      "type": "circle",
+      "minzoom": 12,
+      "source": "dnl",
+      "source-layer": "svalbard_s100_hoydepunkt",
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "circle-radius": 2,
+        "circle-color": "#351b03"
+      }
+    },
+	  
+	  {
       "id": "N50Hoydepunkt_label",
       "type": "symbol",
       "minzoom": 12,
@@ -1019,7 +1359,29 @@
       "paint": {
         "text-color": "#351b03"
       }
-    },{
+    },
+	  
+	  {
+      "id": "svalbard100_hoydepunkt_label",
+      "type": "symbol",
+      "minzoom": 12,
+      "source": "dnl",
+      "source-layer": "svalbard_s100_hoydepunkt",
+      "layout": {
+        "visibility": "visible",
+        "text-font": [
+          "Open Sans Regular"
+        ],
+        "text-size": 10,
+        "text-field": "{hoyde}",   
+        "text-anchor": "bottom"
+      },
+      "paint": {
+        "text-color": "#351b03"
+      }
+    },
+	  
+	  {
       "interactive": true,
       "id": "N50Skytefeltgrense",
       "type": "line",
@@ -1089,7 +1451,34 @@
         "line-width": 1,
         "line-color": "rgba(1,1,1,1)"
       }
-    },{
+    },
+	  {
+      "id": "svalbard250_KaiBrygge",
+      "type": "line",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "source": "dnl",
+      "source-layer": "svalbard_s250_teknisit_linje",
+      "filter": ["==", "objekttypenavn", "KaiBryggeKant"],
+      "paint": {
+        "line-width": 1,
+        "line-color": "rgba(1,1,1,1)"
+      }
+    },
+	  
+	  	  {
+      "id": "svalbard100_KaiBrygge",
+      "type": "line",
+      "minzoom": 11,
+      "source": "dnl",
+      "source-layer": "svalbard_s100_teknisit_linje",
+      "filter": ["==", "objekttypenavn", "KaiBryggeKant"],
+      "paint": {
+        "line-width": 1,
+        "line-color": "rgba(1,1,1,1)"
+      }
+    },
+	  {
       "id": "Navigasjonsinstallasjon",
       "type": "circle",
       "minzoom": 11,
@@ -1690,8 +2079,35 @@
         "line-width": 0.8,
         "line-color": "#ec008c"
       }
-    }
-  ,
+    },
+  
+	  {
+      "id": "svalbard250_Luftledning",
+      "type": "line",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "source": "dnl",
+      "source-layer": "svalbard_s250_teknisit_linje",
+      "filter": ["==", "objekttypenavn", "LuftledningHSP"],
+      "paint": {
+        "line-width": 0.8,
+        "line-color": "#ec008c"
+      }
+    },
+	  
+	  {
+      "id": "svalbard100_Luftledning",
+      "type": "line",
+      "minzoom": 11,
+      "source": "dnl",
+      "source-layer": "svalbard_s100_teknisit_linje",
+      "filter": ["==", "objekttypenavn", "LuftledningHSP"],
+      "paint": {
+        "line-width": 0.8,
+        "line-color": "#ec008c"
+      }
+    },
+  
   {
       "id": "kommuner",
       "type": "line",
@@ -1703,6 +2119,254 @@
         "line-dasharray": [5, 5]
       }
     },
+	  
+	  {
+            "id": "svalbard1000_stedsnavn",
+            "type": "symbol",
+            "source": "dnl",
+	    "maxzoom": 8,
+            "source-layer": "svalbard_s1000_stedsnavn",
+            "layout": {
+		    "symbol-sort-key": ["to-number",["get", "ttema"]],
+      "text-font": [
+          "Open Sans Regular"
+        ],
+                "text-field": [
+                    "step",
+                    ["zoom"],
+                    [
+                        "match",
+                        ["to-number", ["get", "navnetype"]],
+                        [3],
+                        ["to-string", ["get", "stedsnavn"]],
+                        ""
+                    ],
+                    4,
+                    [
+                        "match",
+                        ["to-number", ["get", "navnetype"]],
+                        [3,101],
+                        ["to-string", ["get", "stedsnavn"]],
+			""
+                    ],
+          7,
+                    [
+                        "match",
+                        ["to-number", ["get", "navnetype"]],
+                        [3,101],
+                        ["to-string", ["get", "stedsnavn"]],
+                        ""
+                    ]
+                ],
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["to-number", ["get", "navnetype"]],
+          1, 9,
+          3, 14,
+          13, 14,
+          16, 11, 
+          31, 9,
+          50, 10,
+          80, 12,
+          82, 10,
+          84, 10, 
+          86, 10,
+          87, 12,
+          89, 9,
+	  94, 16,
+	  101, 14
+                ]
+            },
+            "paint": {
+                "text-color": [
+        "interpolate",
+                    ["linear"],
+                    ["to-number", ["get", "navnetype"]],
+          1, "rgb(71, 35, 21)",
+          3, "rgb(71, 35, 21)",
+          13, "rgb(50,50,50)",
+          16, "rgb(71, 35, 21)", 
+          31, "rgb(18, 55, 120)",
+          50, "rgb(71, 35, 21)",
+          80, "rgb(18, 55, 120)",
+          82, "rgb(50,50,50)",
+          84, "rgb(50,50,50)", 
+          86, "rgb(50,50,50)",
+          87, "rgb(50,50,50)",
+          89, "rgb(50,50,50)",
+	  94, "rgb(18, 55, 120)",
+          101, "rgb(50,50,50)"
+        ],
+		    "text-halo-width": 1,
+      "text-halo-color": "rgb(254,254,254)"
+            }
+        },
+	  
+	  {
+            "id": "svalbard250_stedsnavn",
+            "type": "symbol",
+            "source": "dnl",
+	    "minzoom": 8,
+	    "maxzoom": 11,
+            "source-layer": "svalbard_s250_stedsnavn",
+            "layout": {
+		    "symbol-sort-key": ["to-number",["get", "ttema"]],
+      "text-font": [
+          "Open Sans Regular"
+        ],
+                "text-field": [
+                    "step",
+                    ["zoom"],
+                    [
+                        "match",
+                        ["to-number", ["get", "navnetype"]],
+                        [3],
+                        ["to-string", ["get", "stedsnavn"]],
+                        ""
+                    ],
+                    8,
+                    [
+                        "match",
+                        ["to-number", ["get", "navnetype"]],
+                        [3,101, 94, 80],
+                        ["to-string", ["get", "stedsnavn"]],
+			""
+                    ],
+          10,
+                    [
+                        "match",
+                        ["to-number", ["get", "navnetype"]],
+                        [3,101, 94, 80, 50, 31, 84, 86],
+                        ["to-string", ["get", "stedsnavn"]],
+                        ""
+                    ]
+                ],
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["to-number", ["get", "navnetype"]],
+          1, 9,
+          3, 14,
+          13, 14,
+          16, 11, 
+          31, 10,
+          50, 10,
+          80, 10,
+          82, 10,
+          84, 10, 
+          86, 10,
+          87, 12,
+          89, 10,
+	  94, 16,
+	  101, 14
+                ]
+            },
+            "paint": {
+                "text-color": [
+        "interpolate",
+                    ["linear"],
+                    ["to-number", ["get", "navnetype"]],
+          1, "rgb(71, 35, 21)",
+          3, "rgb(71, 35, 21)",
+          13, "rgb(50,50,50)",
+          16, "rgb(71, 35, 21)", 
+          31, "rgb(18, 55, 120)",
+          50, "rgb(71, 35, 21)",
+          80, "rgb(18, 55, 120)",
+          82, "rgb(50,50,50)",
+          84, "rgb(50,50,50)", 
+          86, "rgb(50,50,50)",
+          87, "rgb(50,50,50)",
+          89, "rgb(50,50,50)",
+	  94, "rgb(18, 55, 120)",
+          101, "rgb(50,50,50)"
+        ],
+		    "text-halo-width": 1,
+      "text-halo-color": "rgb(254,254,254)"
+            }
+        },
+	  
+	   {
+            "id": "svalbard100_stedsnavn",
+            "type": "symbol",
+            "source": "dnl",
+	    "minzoom": 11,
+            "source-layer": "svalbard_s100_stedsnavn",
+            "layout": {
+		    "symbol-sort-key": ["to-number",["get", "ttema"]],
+      "text-font": [
+          "Open Sans Regular"
+        ],
+                "text-field": [
+                    "step",
+                    ["zoom"],
+                    [
+                        "match",
+                        ["to-number", ["get", "presentasjonskode"]],
+                        [3],
+                        ["to-string", ["get", "stedsnavn"]],
+                        ""
+                    ],
+                    11,
+                    [
+                        "match",
+                        ["to-number", ["get", "presentasjonskode"]],
+                        [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+                        ["to-string", ["get", "stedsnavn"]],
+			""
+			]
+                    ],
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["to-number", ["get", "presentasjonskode"]],
+          4, 14,
+          5, 12,
+          6, 14,
+          7, 14, 
+          8, 14,
+          9, 12,
+          10, 14,
+          11, 14,
+          12, 12, 
+          13, 12,
+          14, 12,
+          15, 12,
+	  16, 12,
+	  17, 12,
+	  18, 12,
+	  19, 12,
+	  20, 12
+                ]
+            },
+            "paint": {
+                "text-color": [
+        "interpolate",
+                    ["linear"],
+                    ["to-number", ["get", "presentasjonskode"]],
+          4, "rgb(18, 55, 120)",
+          5, "rgb(50,50,50)",
+          6, "rgb(100, 50, 0)", 
+          7, "rgb(50,50,50)",
+          8, "rgb(50,50,50)",
+          9, "rgb(50,50,50)",
+          10, "rgb(18, 55, 120)",
+          11, "rgb(18, 55, 120)", 
+          12, "rgb(50,50,50)",
+          13, "rgb(50,50,50)",
+          14, "rgb(50,50,50)",
+	  15, "rgb(18, 55, 120)",
+          16, "rgb(18, 55, 120)",
+	  17, "rgb(50,50,50)",
+	  18, "rgb(100, 50, 0)",
+	  19, "rgb(18, 55, 120)",
+	  20, "rgb(100, 50, 0)"		
+        ],
+		    "text-halo-width": 1,
+      "text-halo-color": "rgb(254,254,254)"
+            }
+        },
   {
             "id": "place-city-label_500",
             "type": "symbol",

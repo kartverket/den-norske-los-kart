@@ -1967,7 +1967,11 @@
       "source": "dnl",
       "source-layer": "grunne",
       "icon-padding":20,
-      "minzoom":10,
+      "minzoom":16,
+      "filter": [
+        "all",
+        [">", ["to-number",["get", "dybde"]], 0.5]
+    ],
       "layout": {
         "visibility": "visible",
         "text-padding":10,

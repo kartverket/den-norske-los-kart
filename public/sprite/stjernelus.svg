@@ -1,12 +1,80 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
-<g id="Guide">
-</g>
-<g id="uwroc112-IK12">
-	<path d="M24.257,23.743v-1.029h-0.539v1.029h-1.029v0.539h1.029v1.029h0.539v-1.029h1.029v-0.539H24.257z M23.351,22.983
-		c0,0.203-0.165,0.368-0.368,0.368s-0.368-0.165-0.368-0.368s0.165-0.368,0.368-0.368S23.351,22.78,23.351,22.983z M23.351,25.017
-		c0,0.203-0.165,0.368-0.368,0.368s-0.368-0.165-0.368-0.368s0.165-0.368,0.368-0.368S23.351,24.814,23.351,25.017z M25.385,22.983
-		c0,0.203-0.165,0.368-0.368,0.368s-0.368-0.165-0.368-0.368s0.165-0.368,0.368-0.368S25.385,22.78,25.385,22.983z M25.385,25.017
-		c0,0.203-0.165,0.368-0.368,0.368s-0.368-0.165-0.368-0.368s0.165-0.368,0.368-0.368S25.385,24.814,25.385,25.017z"/>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_2"
+   data-name="Layer 2"
+   viewBox="0 0 1 1"
+   style="zoom: 1;"
+   width="3mm"
+   height="3mm"
+   version="1.1"
+   sodipodi:docname="stjernelus.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1276"
+     inkscape:window-height="901"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="20.813889"
+     inkscape:cx="5.6692913"
+     inkscape:cy="5.6692913"
+     inkscape:window-x="2301"
+     inkscape:window-y="147"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_2" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:0.11px;}</style>
+  </defs>
+  <line
+     class="cls-1"
+     x1="0.5"
+     y1="0.11625"
+     x2="0.5"
+     y2="0.87374997"
+     id="line6"
+     style="fill:none;stroke:#000000;stroke-width:0.0825px;stroke-miterlimit:10" />
+  <line
+     class="cls-1"
+     x1="0.16249999"
+     y1="0.68624997"
+     x2="0.83749998"
+     y2="0.30375001"
+     id="line8"
+     style="fill:none;stroke:#000000;stroke-width:0.0825px;stroke-miterlimit:10" />
+  <line
+     class="cls-1"
+     x1="0.16249999"
+     y1="0.30375001"
+     x2="0.83749998"
+     y2="0.68624997"
+     id="line10"
+     style="fill:none;stroke:#000000;stroke-width:0.0825px;stroke-miterlimit:10" />
 </svg>

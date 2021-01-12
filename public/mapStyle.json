@@ -1684,7 +1684,6 @@
     }, {
       "id": "skvalpeskjaer",
       "type": "symbol",
-      "minzoom": 11,
       "source": "s57",
       "source-layer": "UWTROC",
       "filter": [
@@ -1701,7 +1700,6 @@
     {
       "id": "stjernelus",
       "type": "symbol",
-      "minzoom": 11,
       "source": "s57",
       "source-layer": "UWTROC",
       "filter": [
@@ -1717,7 +1715,6 @@
     {
       "id": "grunne",
       "type": "symbol",
-      "minzoom": 11,
       "source": "s57",
       "source-layer": "UWTROC",
       "filter": [
@@ -1979,8 +1976,8 @@
         ],
         "text-size": 10,
         "symbol-sort-key": ["to-number",["get", "dybde"]],
-        "text-field": ["get", "dybde"]
-      },
+        "text-field": ["get", "dybde"] 
+        },
       "paint": {
         "text-color": "rgba(5,5,5,1)",
         "text-halo-width": 1.5,

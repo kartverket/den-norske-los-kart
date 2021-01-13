@@ -1973,7 +1973,7 @@
       "source": "dnl",
       "source-layer": "grunne",
       "icon-padding":20,
-      "minzoom":16,
+      "minzoom":12,
       "filter": [
         "all",
         [">", ["to-number",["get", "dybde"]], 0.5]

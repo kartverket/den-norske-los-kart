@@ -17,7 +17,7 @@
    sodipodi:docname="stjernelus.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
-     id="metadata15">
+     id="metadata34">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -37,44 +37,44 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1276"
-     inkscape:window-height="901"
-     id="namedview13"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview32"
      showgrid="false"
      inkscape:zoom="20.813889"
      inkscape:cx="5.6692913"
      inkscape:cy="5.6692913"
-     inkscape:window-x="2301"
-     inkscape:window-y="147"
-     inkscape:window-maximized="0"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:current-layer="Layer_2" />
   <defs
-     id="defs4">
+     id="defs23">
     <style
-       id="style2">.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:0.11px;}</style>
+       id="style21">.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:0.11px;}</style>
   </defs>
   <line
      class="cls-1"
-     x1="0.5"
-     y1="0.11625"
-     x2="0.5"
-     y2="0.87374997"
-     id="line6"
-     style="fill:none;stroke:#000000;stroke-width:0.0825px;stroke-miterlimit:10" />
+     x1="0.52315533"
+     y1="0.10000002"
+     x2="0.52315533"
+     y2="0.89999998"
+     id="line25"
+     style="fill:none;stroke:#000000;stroke-width:0.1006133px;stroke-miterlimit:10" />
   <line
      class="cls-1"
-     x1="0.16249999"
-     y1="0.68624997"
-     x2="0.83749998"
-     y2="0.30375001"
-     id="line8"
-     style="fill:none;stroke:#000000;stroke-width:0.0825px;stroke-miterlimit:10" />
+     x1="0.14291415"
+     y1="0.70198023"
+     x2="0.90339637"
+     y2="0.29801983"
+     id="line27"
+     style="fill:none;stroke:#000000;stroke-width:0.08999126px;stroke-miterlimit:10" />
   <line
      class="cls-1"
-     x1="0.16249999"
-     y1="0.30375001"
-     x2="0.83749998"
-     y2="0.68624997"
-     id="line10"
-     style="fill:none;stroke:#000000;stroke-width:0.0825px;stroke-miterlimit:10" />
+     x1="0.14291415"
+     y1="0.29801983"
+     x2="0.90339637"
+     y2="0.70198023"
+     id="line29"
+     style="fill:none;stroke:#000000;stroke-width:0.08999126px;stroke-miterlimit:10" />
 </svg>

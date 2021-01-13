@@ -12,7 +12,12 @@
       "maxzoom":14,
       "tiles": ["https://cache.kartverket.no/test/dnl/{z}/{x}/{y}.mvt"]
   },
-
+  "paper": {
+    "type": "raster",
+    "tiles": [ "https://tile.ecc.no/tile/sjokartrasterwms/{z}/{x}/{y}.png?api_key=AC17360A-808A-432F-BC71-1D6C3B89A03C&crs=${NAVIZ_URL(crs,EPSG:25833)}" ],
+    "tileSize": 256,
+    "maxzoom": 18
+},
     "fjellskygge2": {
       "type": "raster",
       "tiles": [
@@ -1725,7 +1730,8 @@
       ],
       "layout": {
         "icon-image": "grunne",
-        "icon-allow-overlap": true
+        "icon-allow-overlap": true,
+        "icon-offset": [-2,-2]
       }
     },{
       "id": "Luftledning",
@@ -1974,19 +1980,23 @@
     ],
       "layout": {
         "visibility": "visible",
-        "text-padding":10,
+        "text-anchor": "top-left",
         "text-font": [
-          "Open Sans Bold"
+          "Open Sans Regular"
         ],
-        "text-size": 10,
+        "text-size": 8,
         "symbol-sort-key": ["to-number",["get", "dybde"]],
         "text-field": ["get", "dybde"] 
-        },
-      "paint": {
-        "text-color": "rgba(5,5,5,1)",
-        "text-halo-width": 1.5,
-        "text-halo-color": "rgba(254,254,254,1)"
-      }
+        }
+    },
+    {
+      "id": "paper",
+      "type": "raster",
+      "source": "paper",
+      "layout": {
+        "visibility": "none"
+      },
+      "paint": {}
     }
 
   ]

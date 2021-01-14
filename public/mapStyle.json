@@ -72,25 +72,13 @@
       "id": "N500Arealdekkeflate",
       "type": "fill",
       "minzoom": 8,
-      "maxzoom": 11,
-      "source": "dnl",
-      "source-layer": "N500Arealdekkeflate",
-      "paint": {
-      "fill-color": "#ffefc6"
-      }
-    },
-	  {
-      "id": "N50Arealdekkeflate",
-      "type": "fill",
-      "minzoom": 11,
       "maxzoom": 15,
       "source": "dnl",
       "source-layer": "N500Arealdekkeflate",
       "paint": {
       "fill-color": "#ffefc6"
       }
-    },
-	  
+    },  
 	  {
       "id": "svalbard_land",
       "type": "fill",

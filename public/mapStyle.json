@@ -38,7 +38,9 @@
       "paint": {
         "background-color": "#e61732"
       }
-    },{
+    },
+	  
+	  {
       "id": "hoydelag250",
       "type": "fill",
       "minzoom": 8,
@@ -258,7 +260,7 @@
       "source": "dnl",
       "source-layer": "N500Vannflate",
       "minzoom": 8,
-      "maxzoom": 15
+      "maxzoom": 15,
       "filter": [     
           "match",
                     ["get", "objtype"],

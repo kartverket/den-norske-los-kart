@@ -258,7 +258,7 @@
       "source": "dnl",
       "source-layer": "N500Vannflate",
       "minzoom": 8,
-      "maxzoom": 10,
+      "maxzoom": 15
       "filter": [     
           "match",
                     ["get", "objtype"],

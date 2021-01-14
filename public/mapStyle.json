@@ -23,19 +23,20 @@
   "sprite": "https://dnl.maplytic.no/sprite/branch/${NAVIZ_GIT_BRANCH}/sprite",
   "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   "layers": [
-	  {
-      "id": "background_sea",
-      "type": "background",
-      "paint": {
-        "background-color": "#e61732"
-      }
-    },
+	 
     {
       "id": "background_land",
       "type": "background",
       "minzoom": 11,
       "paint": {
         "background-color": "#ffefc6"
+      }
+    },  
+	   {
+      "id": "background_sea",
+      "type": "background",
+      "paint": {
+        "background-color": "#e61732"
       }
     },{
       "id": "hoydelag250",
@@ -72,6 +73,17 @@
       "type": "fill",
       "minzoom": 8,
       "maxzoom": 11,
+      "source": "dnl",
+      "source-layer": "N500Arealdekkeflate",
+      "paint": {
+      "fill-color": "#ffefc6"
+      }
+    },
+	  {
+      "id": "N50Arealdekkeflate",
+      "type": "fill",
+      "minzoom": 11,
+      "maxzoom": 15,
       "source": "dnl",
       "source-layer": "N500Arealdekkeflate",
       "paint": {

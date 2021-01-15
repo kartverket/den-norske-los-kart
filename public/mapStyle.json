@@ -118,8 +118,8 @@
 	  {
       "id": "svalbard_hav",
       "type": "fill",
-      "minzoom": 2,
-      "maxzoom": 3,
+      "minzoom": 6,
+      "maxzoom": 15,
       "source": "svalbard_hav",
       "paint": {
       "fill-color": "#e7f6fd"

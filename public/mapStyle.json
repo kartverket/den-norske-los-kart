@@ -18,7 +18,7 @@
       "tiles": ["https://openwms.statkart.no/skwms1/wmstest.dnl_test?mode=tile&tilemode=gmap&tile={x}+{y}+{z}&layers=all&map.imagetype=mvt"]
   },
 	  
-	"svalbard_hav2": {
+	"svalbard_hav": {
     "type": "geojson",
     "data": {
         "type": "Feature",
@@ -118,8 +118,8 @@
 	  {
       "id": "svalbard_hav",
       "type": "fill",
-      "minzoom": 8,
-      "maxzoom": 15,
+      "minzoom": 2,
+      "maxzoom": 3,
       "source": "svalbard_hav",
       "paint": {
       "fill-color": "#e7f6fd"

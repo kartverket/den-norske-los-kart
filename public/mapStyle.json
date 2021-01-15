@@ -26,7 +26,11 @@
             "type": "Polygon",
             "coordinates": [[[372204.73,8223539.34],[372204.73,9008517.49],[875943.92,9008517.49],[875943.92,8223539.34],[372204.73,8223539.34]]]
         },
-    },
+	     "properties": {
+            "title": "Svalbard Hav",
+            "marker-symbol": "monument"
+        }
+    }
 },
     
     "fjellskygge2": {

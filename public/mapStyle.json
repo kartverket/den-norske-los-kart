@@ -81,6 +81,18 @@
       "fill-color": "#ffefc6"
       }
     },  
+	  
+	  {
+      "id": "svalbard_hav",
+      "type": "fill",
+      "minzoom": 8,
+      "maxzoom": 15,
+      "source": "dnl",
+      "source-layer": "svalbard_hav",
+      "paint": {
+      "fill-color": "#e7f6fd"
+      }
+    },  
 	  {
       "id": "svalbard_land",
       "type": "fill",

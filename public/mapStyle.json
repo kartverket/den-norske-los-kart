@@ -10,7 +10,7 @@
     "dnl": {
       "type": "vector",
       "maxzoom":14,
-      "tiles": ["https://cache.kartverket.no/dnl/{z}/{x}/{y}.mvt"]
+      "tiles": ["https://cache.kartverket.no/test/dnl/{z}/{x}/{y}.mvt"]
   },
     
     "fjellskygge2": {

@@ -121,7 +121,6 @@
       "minzoom": 8,
       "maxzoom": 15,
       "source": "svalbard_hav",
-      "source-layer": "svalbard_hav",
       "paint": {
       "fill-color": "#e7f6fd"
       }

@@ -15,7 +15,7 @@
 	  
 	"dnl": {
       "type": "vector",
-      "tiles": ["https://openwms.statkart.no/skwms1/wmstest.dnl?mode=tile&tilemode=gmap&tile={x}+{y}+{z}&layers=all&map.imagetype=mvt"]
+      "tiles": ["https://openwms.statkart.no/skwms1/wmstest.dnl_test?mode=tile&tilemode=gmap&tile={x}+{y}+{z}&layers=all&map.imagetype=mvt"]
   },
     
     "fjellskygge2": {

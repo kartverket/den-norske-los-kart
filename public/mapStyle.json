@@ -17,6 +17,17 @@
       "type": "vector",
       "tiles": ["https://openwms.statkart.no/skwms1/wmstest.dnl_test?mode=tile&tilemode=gmap&tile={x}+{y}+{z}&layers=all&map.imagetype=mvt"]
   },
+	  
+	"geojson-marker": {
+    "type": "geojson",
+    "data": {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[372204.73,8223539.34],[372204.73,9008517.49],[875943.92,9008517.49],[875943.92,8223539.34],[372204.73,8223539.34]]]
+        },
+    }
+},
     
     "fjellskygge2": {
       "type": "raster",
@@ -85,8 +96,8 @@
       "type": "fill",
       "minzoom": 8,
       "maxzoom": 15,
-      "source": "dnl",
-      "source-layer": "svalbard_hav",
+      "source": "geojson-marker",
+      "source-layer": "geojson-marker",
       "paint": {
       "fill-color": "#e7f6fd"
       }

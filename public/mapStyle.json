@@ -7,10 +7,15 @@
     "maxzoom":16,
       "tiles": ["https://tile.ecc.no/tile/dnlvt/{z}/{x}/{y}.mvt?api_key=AC17360A-808A-432F-BC71-1D6C3B89A03C"]
     },
-    "dnl": {
+    "dnl2": {
       "type": "vector",
       "maxzoom":14,
       "tiles": ["https://cache.kartverket.no/test/dnl/{z}/{x}/{y}.mvt"]
+  },
+	  
+	"dnl": {
+      "type": "vector",
+      "tiles": ["http://openwms.statkart.no/skwms1/wmstest.dnl?mode=tile&tilemode=gmap&tile={x}+{y}+{z}&layers=all&map.imagetype=mvt"]
   },
     
     "fjellskygge2": {

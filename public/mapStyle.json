@@ -32,13 +32,6 @@
         "background-color": "#ffefc6"
       }
     },  
-	   {
-      "id": "background_sea",
-      "type": "background",
-      "paint": {
-        "background-color": "#e61732"
-      }
-    },
 	  
 	  {
       "id": "hoydelag250",

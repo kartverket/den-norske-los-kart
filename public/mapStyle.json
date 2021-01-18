@@ -13,11 +13,6 @@
       "tiles": ["https://cache.kartverket.no/dnl/{z}/{x}/{y}.mvt"]
   },
 	  
-	"dnlwms": {
-      "type": "vector",
-      "tiles": ["https://openwms.statkart.no/skwms1/wmstest.dnl_test?mode=tile&tilemode=gmap&tile={x}+{y}+{z}&layers=all&map.imagetype=mvt"]
-  },
-	  
 	"svalbard_hav": {
     "type": "geojson",
     "data": {

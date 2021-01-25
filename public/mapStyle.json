@@ -1929,11 +1929,44 @@
       }
     },
     {
+      "id": "LIGHTS_ARC_FILL",
+      "type": "fill",
+      "source": "s57",
+      "source-layer": "LIGHTS_ARC_FILL",
+      "paint": {
+         "fill-color": {
+            "property": "COLOUR_HEX",
+            "type": "identity"
+         }
+      }
+    },
+    {
+      "id": "LIGHTS_ARC_FILL_OUTLINE",
+      "type": "line",
+      "source": "s57",
+      "source-layer": "LIGHTS_ARC_FILL",
+      "paint": {
+          "line-color": "#000000",
+          "line-width": 1,
+          "line-opacity": 0.5
+      }
+    },
+    {
       "id": "LIGHTS_LEG",
       "type": "line",
-      "minzoom": 11,
-      "source": "dnl",
-      "source-layer": "sektorlinje",
+      "source": "s57",
+      "source-layer": "LIGHTS_LEG",
+      "paint": {
+        "line-color": "#000000",
+        "line-width": 0.2,
+        "line-opacity": 1
+      }
+    },
+    {
+      "id": "LIGHTS_LEG_EXTERNAL",
+      "type": "line",
+      "source": "s57",
+      "source-layer": "LIGHTS_LEG_EXTERNAL",
       "paint": {
         "line-color": "#000000",
         "line-width": 0.2,
@@ -1943,7 +1976,6 @@
     {
       "id": "LIGHTS_ARC_BG",
       "type": "line",
-      "minzoom": 11,
       "source": "s57",
       "source-layer": "LIGHTS_ARC",
       "paint": {
@@ -1953,54 +1985,49 @@
       }
     },
     {
-      "id": "LIGHTS_ARC_1",
+      "id": "LIGHTS_ARC_FG",
       "type": "line",
-      "minzoom": 11,
       "source": "s57",
       "source-layer": "LIGHTS_ARC",
-      "filter": [
-        "==",
-        "COLOUR",
-        "1"
-      ],
       "paint": {
-        "line-color": "#e4df35",
+        "line-color": {
+            "property": "COLOUR_HEX",
+            "type": "identity"
+        },
         "line-width": 3,
         "line-opacity": 1
       }
     },
     {
-      "id": "LIGHTS_ARC_3",
-      "type": "line",
-      "minzoom": 11,
-      "source": "s57",
-      "source-layer": "LIGHTS_ARC",
-      "filter": [
-        "==",
-        "COLOUR",
-        "3"
-      ],
-      "paint": {
-        "line-color": "#ea5470",
-        "line-width": 3,
-        "line-opacity": 1
-      }
+        "id": "LIGHTS_ARC_TEXT",
+        "type": "symbol",
+        "minzoom": 5,
+        "source": "s57",
+        "source-layer": "LIGHTS_ARC_TEXT",
+        "layout": {
+          "text-font": [ "Open Sans Regular" ],
+          "text-size": 12,
+          "text-field": "{SECTOR_TEXT}",
+          "text-allow-overlap": true,
+          "text-rotate": {
+              "property": "SECTOR_TEXT_ROTATE",
+              "type": "identity"
+          }
+        },
+        "paint": {
+            "text-color": "#000000",
+            "text-halo-width": 0.5,
+            "text-halo-color": "#ffffff"
+        }
     },
     {
-      "id": "LIGHTS_ARC_4",
-      "type": "line",
-      "minzoom": 11,
+      "id": "LIGHTS_CENTER_STAR",
+      "type": "symbol",
       "source": "s57",
-      "source-layer": "LIGHTS_ARC",
-      "filter": [
-        "==",
-        "COLOUR",
-        "4"
-      ],
-      "paint": {
-        "line-color": "#61e637",
-        "line-width": 3,
-        "line-opacity": 1
+      "source-layer": "LIGHTS",
+      "layout": {
+        "icon-image": "lights109",
+        "icon-allow-overlap": true
       }
     },
     {

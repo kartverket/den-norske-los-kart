@@ -9,6 +9,12 @@
     <style>
     body { margin:0; padding:0; }
     #map { position:absolute; top:0; bottom:0; width:100%; }
+    #menu {
+        position: absolute;
+        background: #fff;
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+    }
     #features {
     position: absolute;
     top: 0;
@@ -24,6 +30,10 @@
 
 <div id='map'></div>
 <pre id='features'></pre>
+<div id='menu'>
+    <input id='paper' type="checkbox" name="layer" value="paper">
+    <label for='paper'>Papirsjøkart</label>
+</div>
 
 <script>
     
@@ -57,6 +67,28 @@
         }
         document.getElementById('features').innerHTML = JSON.stringify(features, null, 2);
     });
+    var layerList = document.getElementById('menu');
+    var inputs = layerList.getElementsByTagName('input');
+
+    function toggleLayer(layer) {
+        var layerIdPrefix = layer.target.value;
+        var checked = layer.target.checked;
+        for (var i = 0; i < map.getStyle().layers.length; i++) {
+            var layer = map.getStyle().layers[i];
+            if (!layer.id.startsWith(layerIdPrefix)) {
+                continue;
+            }
+        if (checked) {
+                map.setLayoutProperty(layer.id, 'visibility', 'visible');
+            } else {
+                map.setLayoutProperty(layer.id, 'visibility', 'none');
+            }
+        }
+    }
+
+    for (var i = 0; i < inputs.length; i++) {
+        inputs[i].onclick = toggleLayer;
+    }
 
  </script>
 

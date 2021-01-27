@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 15.11811 15.11811"
+   xml:space="preserve"
+   id="svg96"
+   sodipodi:docname="lights109.svg"
+   width="4mm"
+   height="4mm"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)"><metadata
+   id="metadata102"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs100" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1467"
+   inkscape:window-height="990"
+   id="namedview98"
+   showgrid="true"
+   inkscape:zoom="11.830858"
+   inkscape:cx="36.794201"
+   inkscape:cy="32.321382"
+   inkscape:window-x="2119"
+   inkscape:window-y="25"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg96"
+   units="mm"><inkscape:grid
+     type="xygrid"
+     id="grid112" /></sodipodi:namedview>
+<g
+   id="Guide">
+</g>
+<g
+   id="lights109-IP1"
+   transform="matrix(2.9471119,0,0,2.9471119,-63.149662,-62.904886)">
+	<path
+   d="m 25.526,26.095 -1.168,-0.873 c -0.113,0.033 -0.233,0.051 -0.358,0.051 -0.124,0 -0.244,-0.018 -0.358,-0.051 l -1.168,0.873 0.47,-1.383 C 22.813,24.519 22.735,24.287 22.727,24.038 L 21.53,23.193 23,23.213 c 0.145,-0.184 0.34,-0.328 0.565,-0.409 L 24,21.399 l 0.435,1.405 c 0.225,0.082 0.419,0.225 0.565,0.409 l 1.469,-0.02 -1.197,0.845 c -0.007,0.249 -0.086,0.481 -0.217,0.674 z M 24,23.04 c -0.53,0 -0.96,0.43 -0.96,0.96 0,0.53 0.43,0.96 0.96,0.96 0.53,0 0.96,-0.43 0.96,-0.96 0,-0.53 -0.43,-0.96 -0.96,-0.96 z M 24.271,24 c 0,0.15 -0.121,0.271 -0.271,0.271 -0.15,0 -0.271,-0.121 -0.271,-0.271 0,-0.15 0.121,-0.271 0.271,-0.271 0.15,0 0.271,0.121 0.271,0.271 z"
+   id="path93" />
+</g>
+</svg>

@@ -12,6 +12,41 @@
       "maxzoom":14,
       "tiles": ["https://cache.kartverket.no/dnl/{z}/{x}/{y}.mvt"]
   },
+	  
+	"svalbard_hav": {
+    "type": "geojson",
+    "data": {
+        "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.185546875,
+              73.67726447634907
+            ],
+            [
+              35.15625,
+              73.67726447634907
+            ],
+            [
+              35.15625,
+              81.06595681304283
+            ],
+            [
+              5.185546875,
+              81.06595681304283
+            ],
+            [
+              5.185546875,
+              73.67726447634907
+            ]
+          ]
+        ]
+      },
+	"properties": {}    
+    }
+},
     
     "fjellskygge2": {
       "type": "raster",
@@ -23,6 +58,7 @@
   "sprite": "https://dnl.maplytic.no/sprite/branch/${NAVIZ_GIT_BRANCH}/sprite",
   "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   "layers": [
+	 
     {
       "id": "background_land",
       "type": "background",
@@ -30,14 +66,9 @@
       "paint": {
         "background-color": "#ffefc6"
       }
-    },{
-      "id": "background_sea",
-      "type": "background",
-      "maxzoom": 12,
-      "paint": {
-        "background-color": "#e7f6fd"
-      }
-    },{
+    },  
+	  
+	  {
       "id": "hoydelag250",
       "type": "fill",
       "minzoom": 8,
@@ -71,14 +102,24 @@
       "id": "N500Arealdekkeflate",
       "type": "fill",
       "minzoom": 8,
-      "maxzoom": 11,
+      "maxzoom": 15,
       "source": "dnl",
       "source-layer": "N500Arealdekkeflate",
       "paint": {
       "fill-color": "#ffefc6"
       }
-    },
+    },  
 	  
+	  {
+      "id": "svalbard_hav",
+      "type": "fill",
+      "minzoom": 6,
+      "maxzoom": 15,
+      "source": "svalbard_hav",
+      "paint": {
+      "fill-color": "#e7f6fd"
+      }
+    },  
 	  {
       "id": "svalbard_land",
       "type": "fill",
@@ -258,7 +299,7 @@
       "source": "dnl",
       "source-layer": "N500Vannflate",
       "minzoom": 8,
-      "maxzoom": 10,
+      "maxzoom": 15,
       "filter": [     
           "match",
                     ["get", "objtype"],

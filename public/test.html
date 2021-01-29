@@ -33,22 +33,28 @@
 <div id='menu'>
     <input id='paper' type="checkbox" name="layer" value="paper">
     <label for='paper'>Papirsjøkart</label>
-    <input id='encwmssimplified' type="checkbox" name="layer" value="encwmssimplified">
-    <label for='encwmssimplified'>ENC WMS Simplified</label>
-    <input id='encwmspaper' type="checkbox" name="layer" value="encwmspaper">
-    <label for='encwmspaper'>ENC WMS Paper</label>
-    <input id='topo' type="checkbox" name="layer" value="topo">
-    <label for='topo'>Topografisk</label>
 </div>
 
 <script>
     
+    // default start position
+    var params = {
+        lat: 59.08,
+        lon: 5.34,
+        zoom: 11
+    };
+    
+    // read lat,lon,zoom from url parameters like test.html?lat=59&lon=5&zoom=8
+    window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
+      params[key] = value;
+    });
+    
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapStyle.json',
-        center: [-18.5726, 18.5271],
-        zoom: 11,
-		hash: true
+        center: [params.lon, params.lat],
+        zoom: params.zoom,
+        hash: true
     });
     
     map.on('mousemove', function (e) {
@@ -61,7 +67,6 @@
         }
         document.getElementById('features').innerHTML = JSON.stringify(features, null, 2);
     });
-    
     var layerList = document.getElementById('menu');
     var inputs = layerList.getElementsByTagName('input');
 

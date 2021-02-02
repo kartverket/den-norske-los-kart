@@ -13,14 +13,12 @@
       "tiles": ["https://cache.kartverket.no/dnl/{z}/{x}/{y}.mvt"]
   },
 
-  "paper": {
+  "paper":{
     "type": "raster",
-    "tiles": [ "https://tile.ecc.no/tile/sjokartrasterwms/{z}/{x}/{y}.png?api_key=AC17360A-808A-432F-BC71-1D6C3B89A03C&crs=${NAVIZ_URL(crs,EPSG:25833)}" ],
+    "tiles": [ "https://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=sjokartraster&zoom={z}&x={x}&y={y}" ],
     "tileSize": 256,
     "maxzoom": 18
-},
-
-	  
+},  
 	"svalbard_hav": {
     "type": "geojson",
     "data": {

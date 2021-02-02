@@ -2084,35 +2084,9 @@
             "icon-image": "{SYMBOL}",
             "icon-allow-overlap": true
         }
-    },
-    {
-      "id": "S52_SYMBOL",
+    },  {
+      "id": "S57_S52_SYMBOL_ROTATE_MAP",
       "type": "symbol",
-      "minzoom": 11,
-      "source": "s57",
-      "source-layer": "S52_SYMBOL",
-      "filter": [
-        "all",
-        ["none", [ ">=", "ROTATE", 0 ], [ "<=", "ROTATE", 360 ]],
-        [
-          "!in",
-          "OBCL",
-          "UWTROC",
-          "SOUNDG",
-          "BUAARE",
-          "LNDARE",
-          "LNDRGN"
-        ]
-      ],
-      "layout": {
-        "icon-image": "{SYMBOL}",
-        "icon-allow-overlap": true
-      }
-    },
-    {
-      "id": "S52_SYMBOL_ROTATE",
-      "type": "symbol",
-      "minzoom": 11,
       "source": "s57",
       "source-layer": "S52_SYMBOL",
       "filter": [
@@ -2122,25 +2096,103 @@
           "ROTATE"
         ],
         [
+          "==",
+          "ROTATION_ALIGNMENT",
+          "map"
+        ],
+        [
+          "!=",
+          "LAND",
+          true
+        ],
+        [
+          "any",
+          [
+            "!has",
+            "TNAM"
+          ],
+          [
+            "==",
+            "TNAM",
+            "PAPER_CHART"
+          ]
+        ],
+        [
           "!in",
           "OBCL",
           "UWTROC",
           "SOUNDG",
           "BUAARE",
           "LNDARE",
-          "LNDRGN"
+          "LNDRGN",
+          "PILPNT"
         ]
       ],
       "layout": {
         "icon-image": "{SYMBOL}",
         "icon-allow-overlap": true,
         "icon-rotate": {
-            "property": "ROTATE",
-            "type": "identity"
+          "property": "ROTATE",
+          "type": "identity"
         },
         "icon-rotation-alignment": "map"
       }
-    }, {
+    },
+    {
+      "id": "S57_S52_SYMBOL_ROTATE_VIEWPORT",
+      "type": "symbol",
+      "source": "s57",
+      "source-layer": "S52_SYMBOL",
+      "filter": [
+        "all",
+        [
+          "has",
+          "ROTATE"
+        ],
+        [
+          "==",
+          "ROTATION_ALIGNMENT",
+          "viewport"
+        ],
+        [
+          "!=",
+          "LAND",
+          true
+        ],
+        [
+          "any",
+          [
+            "!has",
+            "TNAM"
+          ],
+          [
+            "==",
+            "TNAM",
+            "PAPER_CHART"
+          ]
+        ],
+        [
+          "!in",
+          "OBCL",
+          "UWTROC",
+          "SOUNDG",
+          "BUAARE",
+          "LNDARE",
+          "LNDRGN",
+          "PILPNT"
+        ]
+      ],
+      "layout": {
+        "icon-image": "{SYMBOL}",
+        "icon-allow-overlap": true,
+        "icon-rotate": {
+          "property": "ROTATE",
+          "type": "identity"
+        },
+        "icon-rotation-alignment": "viewport"
+      }
+    },
+     {
       "id": "skvalpeskjaer",
       "type": "symbol",
       "source": "s57",

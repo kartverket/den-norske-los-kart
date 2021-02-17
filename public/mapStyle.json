@@ -2195,13 +2195,13 @@
      {
       "id": "skvalpeskjaer",
       "type": "symbol",
-      "source": "s57",
-      "source-layer": "UWTROC",
+      "source": "dnl",
+      "source-layer": "grunne",
       "filter": [
-          "all",
-          ["==", "WATLEV", 5],
-          [">=", "VALSOU", 0],
-          ["<=", "VALSOU", 0.5]
+        "all",
+        [">", ["to-number",["get", "dybde"]], 0],
+        ["<", ["to-number",["get", "dybde"]], 0.5]
+
       ],
       "layout": {
         "icon-image": "skvalpeskjaer",
@@ -2211,12 +2211,11 @@
     {
       "id": "stjernelus",
       "type": "symbol",
-      "source": "s57",
-      "source-layer": "UWTROC",
+      "source": "dnl",
+      "source-layer": "grunne",
       "filter": [
-          "all",
-          ["==", "WATLEV", 4],
-          ["<", "VALSOU", 0]
+        "all",
+        ["<", ["to-number",["get", "dybde"]], 0]
       ],
       "layout": {
         "icon-image": "stjernelus",
@@ -2226,13 +2225,12 @@
     {
       "id": "grunne",
       "type": "symbol",
-      "source": "s57",
-      "source-layer": "UWTROC",
+      "source": "dnl",
+      "source-layer":"grunne",
       "filter": [
           "all",
-          ["==", "WATLEV", 3],
-          [">=", "VALSOU", 0.6],
-          ["<=", "VALSOU", 9.9]
+          [">", ["to-number",["get", "dybde"]], 0.5],
+          ["<", ["to-number",["get", "dybde"]], 10]
       ],
       "layout": {
         "icon-image": "grunne",

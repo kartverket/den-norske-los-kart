@@ -2772,6 +2772,35 @@
         "text-halo-width": 1.5,
         "text-halo-color": "rgba(254,254,254,1)"
       }
+    },{
+      "id": "church-symbol",
+      "type": "symbol",
+      "source": "s57",
+      "source-layer": "BUAARE",
+      "filter":[
+        "==",
+        "INFORM",
+        "Kirke"
+      ],
+      "layout": {
+        "icon-image": "church55",
+        "icon-allow-overlap": true
+      }
+    },
+    {
+      "id": "church-symbol_2",
+      "type": "symbol",
+      "source": "s57",
+      "source-layer": "LNDRGN",
+      "filter":[
+        "==",
+        "INFORM",
+        "Kirke"
+      ],
+      "layout": {
+        "icon-image": "church55",
+        "icon-allow-overlap": true
+      }
     },
     {
       "id": "paper",

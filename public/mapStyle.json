@@ -1243,7 +1243,7 @@
       "type": "line",
       "minzoom": 11,
       "source": "dnl",
-      "source-layer": "flytebrygge_l",
+      "source-layer": "Flytebrygge_l",
       "paint": {
         "line-width": 1,
         "line-color": "#57656b"

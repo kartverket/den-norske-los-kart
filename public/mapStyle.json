@@ -1180,7 +1180,39 @@
         "line-color": "#e7f6fd"
     }
       },
-    
+	  {
+      "id": "N50gangsykkelvegFet",
+      "type": "line",
+      "minzoom": 11,
+      "source": "dnl",
+      "source-layer": "N50Gangsykkelveg",
+            "filter": [
+          "==",
+          "medium",
+          "L"
+        ],
+      "paint": {
+        "line-width": 4,
+        "line-color": "#111111"
+    }
+      },
+ 	{
+      "id": "N50gangsykkelveg",
+      "type": "line",
+      "minzoom": 11,
+      "source": "dnl",
+      "source-layer": "N50Gangsykkelveg",
+            "filter": [
+          "==",
+          "medium",
+          "L"
+        ],
+      "paint": {
+        "line-width": 2,
+        "line-color": "#A8A8A8"
+    }
+      },
+
 	  {
       "id": "Dybdekontur",
       "type": "line",

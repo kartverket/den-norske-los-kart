@@ -1736,7 +1736,6 @@
           "Open Sans Regular"
         ],
         "text-size": 9,
-        "symbol-sort-key":["to-number", ["get", "dybde"]],
         "text-field":["case", ["<=",["to-number",["get", "dybde"]],30], ["get", "dybde"], ["to-string",["round",["-",["to-number",["get","dybde"]],0.5]]]]
       },	    
       "paint": {

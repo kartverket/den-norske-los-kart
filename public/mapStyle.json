@@ -1730,7 +1730,7 @@
       "minzoom": 12,
       "source": "dnl",
       "source-layer": "Dybdepunkt",
-      "icon-padding":20,
+      "icon-padding":10,
       "layout": {
         "visibility": "visible",
         "text-padding":10,

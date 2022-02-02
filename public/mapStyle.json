@@ -1620,7 +1620,7 @@
       "minzoom": 6,
       "source": "dnl",
       "source-layer": "N50Arealdekkepunkt",
-      "filter": ["==", "lufthavntype", "F"],
+      "filter": ["==", "lufthavntype", "L"],
       "layout": {
         "visibility": "visible"
       },

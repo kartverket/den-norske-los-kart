@@ -1625,7 +1625,6 @@
       "minzoom": 11,
       "source": "dnl",
       "source-layer": "N50Arealdekkepunkt",
-      "filter": ["==", "lufthavntype", "L"],
       "layout": {
         "visibility": "visible",
         "icon-image": "TOWERS03",

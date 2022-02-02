@@ -1621,14 +1621,16 @@
     },
 	  {
       "id": "flyplass",
-      "type": "symbol",
+      "type": "circle",
       "minzoom": 11,
       "source": "dnl",
       "source-layer": "N50Arealdekkepunkt",
       "layout": {
-        "visibility": "visible",
-        "icon-image": "TOWERS03",
-        "icon-allow-overlap": true
+        "visibility": "visible"
+      },
+      "paint": {
+        "circle-radius": 15,
+        "circle-color": "rgba(154,95,33,1)"
       }
     },
 	  

@@ -1613,7 +1613,24 @@
         "circle-radius": 8,
         "circle-color": "rgba(154,95,33,1)"
       }
-    },{
+    },
+	  {
+      "id": "flyplass",
+      "type": "circle",
+      "minzoom": 6,
+      "source": "dnl",
+      "source-layer": "N50Arealdekkepunkt",
+      "filter": ["==", "lufthavntype", "F"],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "circle-radius": 8,
+        "circle-color": "rgba(154,95,33,1)"
+      }
+    },
+	  
+	  {
       "id": "N50Bru",
       "type": "line",
       "source": "dnl",

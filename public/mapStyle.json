@@ -1621,17 +1621,15 @@
     },
 	  {
       "id": "flyplass",
-      "type": "circle",
-      "minzoom": 6,
+      "type": "symbol",
+      "minzoom": 11,
       "source": "dnl",
       "source-layer": "N50Arealdekkepunkt",
       "filter": ["==", "lufthavntype", "L"],
       "layout": {
-        "visibility": "visible"
-      },
-      "paint": {
-        "circle-radius": 8,
-        "circle-color": "#E51431"
+        "visibility": "visible",
+        "icon-image": "TOWERS03",
+        "icon-allow-overlap": true
       }
     },
 	  

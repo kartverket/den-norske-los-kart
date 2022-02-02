@@ -1626,7 +1626,7 @@
       },
       "paint": {
         "circle-radius": 8,
-        "circle-color": "rgba(154,95,33,1)"
+        "circle-color": "#E51431"
       }
     },
 	  

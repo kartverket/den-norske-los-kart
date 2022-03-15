@@ -1939,6 +1939,11 @@
       "minzoom": 10,
       "source": "s57",
       "source-layer": "RESARE",
+      "filter": [
+        "!=",
+        "RESTRN",
+        27
+      ],
       "paint": {
         "line-color": "#ec008c",
         "line-dasharray": [

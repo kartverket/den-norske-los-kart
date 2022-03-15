@@ -1942,7 +1942,7 @@
       "filter": [
         "!=",
         "RESTRN",
-        27
+        "27"
       ],
       "paint": {
         "line-color": "#ec008c",

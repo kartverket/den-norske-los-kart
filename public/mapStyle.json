@@ -1748,29 +1748,44 @@
       }
     },
 	  
-    {
-      "id": "Dybdepunkt-label-s57",
-      "type": "symbol",
-      "minzoom": 11,
-      "maxzoom": 11,
-      "source": "s57",
-      "source-layer": "SOUNDG",
-      "icon-padding":20,
-      "layout": {
-        "visibility": "visible",
-        "text-padding":10,
-        "text-font": [
-          "Open Sans Regular"
+{
+    "id": "Dybdepunkt-label-s57",
+    "type": "symbol",
+    "minzoom": 10,
+    "maxzoom": 12,
+    "source": "s57",
+    "source-layer": "SOUNDG",
+    "icon-padding":20,
+      "filter":[
+        "all",
+        ["any",
+        [
+          "==",
+          "TEXT_ALLOW_OVERLAP",
+          true
         ],
-        "text-size": 9,
-        "text-field": "{VALSOU_TXT}"
-      },	    
-      "paint": {
-        "text-color": "rgba(1,1,1,1)",
-        "text-halo-width": 1.5,
-        "text-halo-color": "rgba(254,254,254,1)"
-      }
-    },
+        [
+          "!has",
+          "TEXT_ALLOW_OVERLAP"    
+        ]
+      ]
+      ],
+    "layout": {
+      "visibility": "visible",
+      "text-padding":10,
+      "text-font": [
+        "Open Sans Regular"
+      ],
+      "text-size": 9,
+      "text-field": "{VALSOU_TXT}",
+      "text-allow-overlap": true
+    },	    
+    "paint": {
+      "text-color": "rgba(1,1,1,1)",
+      "text-halo-width": 1.5,
+      "text-halo-color": "rgba(254,254,254,1)"
+    }
+  },
     {
       "id": "SLCONS",
       "type": "line",

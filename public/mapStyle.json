@@ -1748,7 +1748,6 @@
       }
     },
 	  
-
     {
       "id": "Dybdepunkt-label-s57",
       "type": "symbol",
@@ -1764,7 +1763,7 @@
           "Open Sans Regular"
         ],
         "text-size": 9,
-        "text-field": "{VALSOU_TXT}",
+        "text-field": "{VALSOU_TXT}"
       },	    
       "paint": {
         "text-color": "rgba(1,1,1,1)",

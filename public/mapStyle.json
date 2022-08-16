@@ -1752,7 +1752,7 @@
     "id": "Dybdepunkt-label-s57",
     "type": "symbol",
     "minzoom": 11,
-    "maxzoom": 13,
+    "maxzoom": 12,
     "source": "s57",
     "source-layer": "SOUNDG",
     "icon-padding":20,

@@ -1751,8 +1751,8 @@
 {
     "id": "Dybdepunkt-label-s57",
     "type": "symbol",
-    "minzoom": 10,
-    "maxzoom": 12,
+    "minzoom": 11,
+    "maxzoom": 13,
     "source": "s57",
     "source-layer": "SOUNDG",
     "icon-padding":20,
@@ -1781,7 +1781,7 @@
       "text-allow-overlap": true
     },	    
     "paint": {
-      "text-color": "rgba(150,1,1,1)",
+      "text-color": "rgba(1,1,1,1)",
       "text-halo-width": 1.5,
       "text-halo-color": "rgba(254,254,254,1)"
     }

@@ -12,6 +12,11 @@
       "maxzoom":14,
       "tiles": ["https://cache.kartverket.no/dnl/{z}/{x}/{y}.mvt"]
   },
+	  
+"dnl_wms": {
+      "type": "vector",
+      "tiles": ["http://openwms.statkart.no/skwms1/wmstest.dnl?mode=tile&tilemode=gmap&tile={x}+{y}+{z}&layers=all&map.imagetype=mvt"]
+  },
 
   "paper":{
     "type": "raster",
@@ -1613,7 +1618,23 @@
         "circle-radius": 8,
         "circle-color": "rgba(154,95,33,1)"
       }
-    },{
+    },
+	  {
+      "id": "flyplass",
+      "type": "circle",
+      "minzoom": 11,
+      "source": "dnl",
+      "source-layer": "N50Arealdekkepunkt",
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "circle-radius": 15,
+        "circle-color": "rgba(154,95,33,1)"
+      }
+    },
+	  
+	  {
       "id": "N50Bru",
       "type": "line",
       "source": "dnl",

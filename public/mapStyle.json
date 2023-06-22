@@ -48,7 +48,7 @@
       ]
     }
   },
-  "sprite": "https://dnl.maplytic.no/sprite/branch/${NAVIZ_GIT_BRANCH}/sprite",
+  "sprite": "https://dnl.kartverket.no/styles/s52",
   "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   "layers": [
     {

@@ -225,7 +225,7 @@
       "type": "raster",
       "source": "fjellskygge2",
       "maxzoom": 11,
-      "raster-opacity": 0.8
+      "paint": {"raster-opacity": 0.8}
     },
     {
       "id": "Hav2000",
@@ -1188,14 +1188,14 @@
           ["<=", ["to-number", ["get", "dybde"]], 30],
           ["get", "dybde"],
           ["to-string", ["round", ["-", ["to-number", ["get", "dybde"]], 0.5]]]
-        ]
+        ],
+        "icon-padding": 20
       },
       "paint": {
         "text-color": "rgba(1,1,1,1)",
         "text-halo-width": 1.5,
         "text-halo-color": "rgba(254,254,254,1)"
-      },
-      "icon-padding": 20
+      }
     },
     {
       "id": "Dybdepunkt-label-s57",
@@ -1218,14 +1218,14 @@
         "text-font": ["Open Sans Regular"],
         "text-size": 9,
         "text-field": "{VALSOU_TXT}",
-        "text-allow-overlap": true
+        "text-allow-overlap": true,
+        "icon-padding": 20
       },
       "paint": {
         "text-color": "rgba(1,1,1,1)",
         "text-halo-width": 1.5,
         "text-halo-color": "rgba(254,254,254,1)"
-      },
-      "icon-padding": 20
+      }
     },
     {
       "id": "SLCONS",
@@ -2328,14 +2328,14 @@
         "text-font": ["Open Sans Bold"],
         "text-size": 9,
         "symbol-sort-key": ["to-number", ["get", "dybde"]],
-        "text-field": ["get", "dybde"]
+        "text-field": ["get", "dybde"],
+        "icon-padding": 20
       },
       "paint": {
         "text-color": "rgba(1,1,1,1)",
         "text-halo-width": 1.5,
         "text-halo-color": "rgba(254,254,254,1)"
-      },
-      "icon-padding": 20
+      }
     },
     {
       "id": "church-symbol",

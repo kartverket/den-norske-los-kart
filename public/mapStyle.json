@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "Den Norske Los",
+  "name": "Den Norske Los. Branch: ${NAVIZ_GIT_BRANCH}",
   "sources": {
     "s57": {
       "type": "vector",
